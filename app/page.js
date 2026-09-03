@@ -1,6 +1,6 @@
 export const metadata = {
     title: 'Best Interior Designers in Chennai | Arcmen Interior',
-    description: 'Arcmen Interior is one of the top interior designers and decorators in Chennai, offering home interiors, luxury interiors, modular kitchens, and customised design solutions.',
+    description: 'With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams.',
     keywords: ['Interior designers in Chennai', 'Best interior designers in Chennai', 'Luxury interior designers', 'Home interior designers in Chennai', 'Interior decorators in Chennai'],
     alternates: { canonical: '/' }
 };

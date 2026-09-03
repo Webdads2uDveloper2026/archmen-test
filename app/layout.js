@@ -11,7 +11,7 @@ const LOGO_URL = 'https://res.cloudinary.com/dpflidsbg/image/upload/v1735189920/
 export const metadata = {
     metadataBase: new URL(SITE_URL),
     title: 'Best Interior Designers in Chennai | Arcmen Interior',
-    description: 'Arcmen Interior provides residential interior design, modular kitchen, architectural design, and customized interior solutions in Chennai.',
+    description: 'With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams',
     keywords: [
         'Interior designers in Chennai',
         'Best interior designers in Chennai',

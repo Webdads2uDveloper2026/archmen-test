@@ -40,7 +40,8 @@ function Offcanvasmobile() {
                                     <Link href="/about-the-best-interior-designer-in-chennai" onClick={handleToggle}>About Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="/interior-designing-company-in-chennai" onClick={handleToggle}>Interior Design</Link>
+                                    <Link href="/residential-interior-designers-in-chennai" onClick={handleToggle}>Residential Interior Design</Link>
+                                    {/* <Link href="/interior-designing-company-in-chennai" onClick={handleToggle}>Interior Design</Link> */}
                                 </li>
                                 <li>
                                     <Link href="/architect-interior-in-chennai" onClick={handleToggle}>Architectural Services</Link>
