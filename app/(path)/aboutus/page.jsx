@@ -6,7 +6,7 @@ export const metadata = {
     alternates: {
       canonical: `/aboutus`,
     },
-    description: ' Arcmen interiors is Chennai's trusted interior designer since 1995. We deliver modern, personalized designs & turnkey execution with passion & precision.',
+    description: ' Arcmen interiors is Chennai`s trusted interior designer since 1995. We deliver modern, personalized designs & turnkey execution with passion & precision.',
     keywords: [
         'interior decorators in chennai',
         'interior decoration in chennai',

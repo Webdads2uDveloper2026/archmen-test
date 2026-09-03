@@ -9,11 +9,7 @@ import React from 'react'
 
 import ModularHero from './ModularHero';
 import "./modularlanding.scss";
-export const metadata = {
-    alternates: { canonical: '/modular-kitchen-chennai' },
-  title: "Best Modular Kitchen Designers & Interiors in chennai ",
-  description: "Bring life to your home with Arcmen Interiors, the best modular kitchen designers in chennai - crafting modern, warm and soulful kitchen interiors",
-};
+
 const page = () => {
   return (
     <>
