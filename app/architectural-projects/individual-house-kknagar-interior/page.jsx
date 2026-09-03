@@ -11,8 +11,8 @@ export async function generateMetadata() {
         alternates: {
             canonical: `/architectural-projects/${project?.titleUrl}`,
         },
-        title: project ? project.metaTitle : 'Luxury interior designer in chennai | Luxury Interior Designer',
-        description: project ? project.metaDescription : 'Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover',
+        title: project ? project.metaTitle : 'Individual House Interior Design in KK Nagar, Chennai | Arcmen',
+        description: project ? project.metaDescription : 'Discover Arcmen`s individual house interior project in KK Nagar with customised interiors, elegant furnishings, smart space planning, and premium craftsmanship.',
         keywords: project
             ? project.metaKeywords.split('|').map(keyword => keyword.trim())
             : ['Luxury interior designer in chennai', 'Luxury Interior Designer', 'luxury interior designers', 'high end interior designers', 'top luxury interior designers']
