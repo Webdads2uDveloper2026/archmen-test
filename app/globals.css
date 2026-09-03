@@ -1,0 +1,264 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --landing: 'DM Sans', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'DM Sans', sans-serif !important;
+    margin: 0px !important;
+    line-height: 1.85714285714286;
+}
+
+.landing-font {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.Build-page {
+    background: #4dbc15;
+    padding: 60px 0;
+}
+
+.build-header h5 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.build-header p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.color-overlay-buttons {
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    text-align: center;
+
+    a {
+        background-color: #4dbc15;
+        padding: 20px 40px 20px 40px;
+        border-style: solid;
+        border-width: 3px 3px 3px 3px;
+        border-color: #4dbc15;
+        position: relative;
+    }
+    a:hover .ue-color-overlays {
+        width: 100%;
+        height: 100%;
+    }
+    .ue-btn-txts {
+        color: #fff;
+    }
+    a:hover .ue-btn-txts {
+        color: #000;
+        z-index: 999;
+        position: relative;
+    }
+    .ue-color-overlays {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        transition: 0.5s;
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.Build-Décor {
+    background: #4dbc15;
+    /* padding: 40px 0px; */
+    padding: 20px 0px;
+}
+
+.Build-Décor h5 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Build-Décor p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.color-overlay-button {
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    text-align: center;
+
+    a {
+        color: #000;
+        background-color: #fff;
+        padding: 20px 40px 20px 40px;
+        border: 3px solid #fff;
+        border-color: #4dbc15;
+        position: relative;
+    }
+
+    .ue-color-overlay {
+        border: 3px solid #fff;
+    }
+    a:hover .ue-color-overlay {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #fff;
+    }
+    .ue-btn-txt {
+        color: #000;
+    }
+    a:hover .ue-btn-txt {
+        color: #fff;
+        z-index: 999;
+        position: relative;
+    }
+
+    .ue-color-overlay {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        transition: 0.5s;
+        background-color: #4dbc15;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.terms-checkbox input[type='checkbox'] {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .architecuralPage {
+        margin-top: 0px;
+    }
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.modal-header .btn-close {
+    border: 0px !important; /* Change border color to red */
+    --bs-btn-close-color: #ff0000 !important; /* Change SVG color to red */
+    background-color: #706b6b;
+}
+
+.architecuralPage {
+    margin-top: 8rem;
+}
+
+.banner1 {
+    height: 580px;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+.banner2 {
+    display: none;
+}
+
+.popup-fminter {
+    height: 550px; /* control height */
+    align-items: stretch;
+}
+
+.form-inter {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.popup-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.outline-none,
+.outline-0 {
+    outline: none !important;
+}
+
+@media screen and (max-width: 989px) {
+    .banner1 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner1 {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .popup-img1 {
+        object-fit: cover;
+    }
+
+    .popup-fminter img {
+        width: 100%;
+        height: 250px !important;
+        margin-top: 64px;
+    }
+
+    .newpopup {
+        padding: 4px;
+    }
+
+    .banner2 {
+        object-fit: cover;
+    }
+}
+
+.ck.ck-balloon-panel {
+    z-index: 99999 !important;
+    position: fixed !important;
+}
+
+.ck.ck-balloon-panel .ck-input,
+.ck.ck-balloon-panel .ck-input-text,
+.ck.ck-balloon-panel input[type='text'],
+.ck.ck-balloon-panel input[type='url'] {
+    pointer-events: all !important;
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    cursor: text !important;
+    opacity: 1 !important;
+}
+
+.ck.ck-balloon-panel .ck-link-form,
+.ck.ck-balloon-panel .ck-link-form__layout {
+    pointer-events: all !important;
+}
+
+/* Fix Bootstrap interfering with CKEditor */
+.ck-body-wrapper * {
+    pointer-events: all !important;
+    box-sizing: border-box !important;
+}
+/* style={{ height: "580px", objectFit: "cover", marginTop: "60px" }} */
