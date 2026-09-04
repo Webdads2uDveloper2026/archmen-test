@@ -296,10 +296,10 @@ const Flipbox = () => {
                             <div className="text-center">
                                 <h2>OUR BRAND</h2>
                             </div>
-                            <div className="slider">
+                            {/* <div className="slider">
                                 <div className="slide-track">
                                     <div className="slide">
-                                        <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp" height="100%" width="100%" alt="Our Brand -Kingdom" />
+                                        <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp" height="100%" width="100%" alt="Our Brand - Kingdom" />
                                     </div>
                                     <div className="slide">
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp" height="100%" width="100%" alt="" />
@@ -334,6 +334,119 @@ const Flipbox = () => {
                                     <div className="slide">
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/aristo.webp" height="100%" width="100%" alt="" />
                                     </div>
+                                </div>
+                            </div> */}
+                            <div className="slider">
+                                <div className="slide-track">
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Kingdom"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - KAFF"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/hindware.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Hindware"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331374/arcmen/century.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Century Ply"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/asianpaints.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Asian Paints"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/aristo.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Aristo"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Kingdom"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - KAFF"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/hindware.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Hindware"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331374/arcmen/century.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Century Ply"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/asianpaints.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Asian Paints"
+                                        />
+                                    </div>
+
+                                    <div className="slide">
+                                        <img
+                                            src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/aristo.webp"
+                                            height="100%"
+                                            width="100%"
+                                            alt="Our Brand - Aristo"
+                                        />
+                                    </div>
+
                                 </div>
                             </div>
                         </Col>

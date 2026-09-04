@@ -2,12 +2,30 @@
 import React, { useEffect, useState } from "react";
 
 const brands = [
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp",
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp",
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/hindware.webp",
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331374/arcmen/century.webp",
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/asianpaints.webp",
-    "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/aristo.webp",
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp",
+        alt: "Our Brand - Kingdom"
+    },
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp",
+        alt: "Our Brand - KAFF"
+    },
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/hindware.webp",
+        alt: "Our Brand - Hindware"
+    },
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331374/arcmen/century.webp",
+        alt: "Our Brand - Century Ply"
+    },
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/asianpaints.webp",
+        alt: "Our Brand - Asian Paints"
+    },
+    {
+        src: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734331373/arcmen/aristo.webp",
+        alt: "Our Brand - Aristo"
+    }
 ];
 
 const OurBrand = () => {
@@ -27,7 +45,7 @@ const OurBrand = () => {
                 setSlideWidth(190); // Large desktop
             }
         };
-        
+
         handleResize();
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
@@ -52,23 +70,23 @@ const OurBrand = () => {
                 {/* Header Section */}
                 <div className="text-center mb-4 sm:mb-6 md:mb-8 lg:mb-10">
                     <h2 className="font-playfair !text-lg sm:!text-base md:!text-xl lg:!text-2xl font-extrabold text-[#1a1a1a] leading-tight">
-                        Our Brand 
+                        Our Brand
                         <span className="text-[#4dbc15] relative inline-block ml-2">
                             Partners
                             <svg className="absolute -bottom-2 left-0 w-full h-1 sm:h-1.5" viewBox="0 0 200 8" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 4 L200 4" strokeWidth="2" strokeDasharray="4 4" fill="none"/>
+                                <path d="M0 4 L200 4" strokeWidth="2" strokeDasharray="4 4" fill="none" />
                             </svg>
                         </span>
                     </h2>
                 </div>
 
                 {/* Simple Brand Slider - No background boxes */}
-                <div 
+                <div
                     className="relative w-full overflow-hidden py-2"
                     onMouseEnter={() => setIsPaused(true)}
                     onMouseLeave={() => setIsPaused(false)}
                 >
-                    <div 
+                    <div
                         className="flex items-center"
                         style={{
                             animationName: 'scroll',
@@ -79,15 +97,22 @@ const OurBrand = () => {
                         }}
                     >
                         {finalBrands.map((brand, index) => (
-                            <div 
+                            <div
                                 key={index}
                                 className="flex-shrink-0 mx-3 sm:mx-4 md:mx-5"
                                 style={{ width: slideWidth }}
                             >
                                 <div className="flex items-center justify-center">
-                                    <img 
+                                    {/* <img 
                                         src={brand} 
                                         alt={`Brand partner ${index + 1}`}
+                                        className="w-full h-auto max-h-16 sm:max-h-20 md:max-h-24 object-contain transition-all duration-300 hover:scale-110"
+                                        style={{ filter: 'brightness(0.9)' }}
+                                        loading="lazy"
+                                    /> */}
+                                    <img
+                                        src={brand.src}
+                                        alt={brand.alt}
                                         className="w-full h-auto max-h-16 sm:max-h-20 md:max-h-24 object-contain transition-all duration-300 hover:scale-110"
                                         style={{ filter: 'brightness(0.9)' }}
                                         loading="lazy"

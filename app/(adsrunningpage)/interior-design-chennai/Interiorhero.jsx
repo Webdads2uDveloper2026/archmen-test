@@ -204,7 +204,7 @@ const Interiorhero = () => {
                             <div className="slider">
                                 <div className="slide-track">
                                     <div className="slide">
-                                        <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp" height="100%" width="100%" alt="Our Brand -Kingdom" />
+                                        <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331379/arcmen/kindom.webp" height="100%" width="100%" alt="Our Brand - Kingdom" />
                                     </div>
                                     <div className="slide">
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734331378/arcmen/kaff.webp" height="100%" width="100%" alt="Our Brand - KAFF" />

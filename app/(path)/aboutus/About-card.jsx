@@ -18,7 +18,7 @@ function Aboutcard() {
                                         <div>
                                             <img
                                                 src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734946407/arcmen/about/design.png"
-                                                alt="About Design"
+                                                alt="About-Design"
                                                 loading="lazy"
                                                 className="img-fluid"
                                             />
@@ -45,7 +45,7 @@ function Aboutcard() {
                                         <div>
                                             <img
                                                 src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734946358/arcmen/about/dwonload.png"
-                                                alt="About Architecture and Construction"
+                                                alt="About-Download"
                                                 loading="lazy"
                                                 className="img-fluid"
                                             />
@@ -72,7 +72,7 @@ function Aboutcard() {
                                         <div>
                                             <img
                                                 src="https://res.cloudinary.com/dpflidsbg/image/upload/v1734946326/arcmen/about/team.png"
-                                                alt="About Execution Team"
+                                                alt="About-Team"
                                                 loading="lazy"
                                                 className="img-fluid"
                                             />
