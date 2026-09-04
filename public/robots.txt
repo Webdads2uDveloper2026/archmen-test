@@ -1,6 +1,14 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /admin-panel/
+Disallow: /login
+Disallow: /registration
+Disallow: /otp-verification
+Disallow: /forgot-password
+Disallow: /private/
+Disallow: /api/
+Disallow: /thank-you
 
 # Host
 Host: https://www.arcmeninterior.com

@@ -5,6 +5,7 @@ import '../../../style/interior.css';
 import Link from 'next/link';
 import AutoSlider from '@/components/slider/slider';
 import PreLoader from '@/components/PreLoader';
+
 const interiorProjects = [
     {
         headingTitel: 'Mr Raja & Family',
@@ -63,7 +64,7 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1735367668/arcmen/Rama%20Elangovan/rama-elangovan-interior-09.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1735367604/arcmen/Rama%20Elangovan/rama-elangovan-interior-08.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1735367544/arcmen/Rama%20Elangovan/rama-elangovan-interior-07.jpg',
-            
+
         ]
     },
     {
@@ -80,7 +81,7 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738328589/arcmen/Mr.Srinath/srinath-kanya-02.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738328589/arcmen/Mr.Srinath/srinath-kanya-03.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738328589/arcmen/Mr.Srinath/srinath-kanya-04.jpg',
-            
+
         ]
     },
     {
@@ -109,7 +110,7 @@ const interiorProjects = [
         interiorType: '',
         sections: [
             'The team discussed a range of designs for the layout we had in the kitchen as well as bedrooms and came up with many options, following which they also guided on materials selection and fittings with a clear focus on optimising costs. Very satisfied with the work. Delivery – given the variety handled some delays ( few days ) must be accepted. Overall very happy with the fit and finish of the work. Work completed in May 2023.',
-            
+
         ],
         sliderImages: [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1735371982/arcmen/Arundev/arundev-interior-01.jpg',
@@ -134,7 +135,7 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738329646/arcmen/Porchelvi/porchelvi-02.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738329646/arcmen/Porchelvi/porchelvi-03.jpg',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738329646/arcmen/Porchelvi/porchelvi-04.jpg',
-            
+
         ]
     },
 
@@ -246,7 +247,7 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1735300019/arcmen/mr-santhosh-family/New-Project-9-1.png'
         ]
     },
-   
+
     {
         headingTitel: 'Mrs Mohan & Family',
         titleUrl: 'mrs-mohan',
@@ -351,7 +352,7 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393381/arcmen/kandhan/kandhan-family-3.webp',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393381/arcmen/kandhan/kandhan-family-2.webp',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393381/arcmen/kandhan/kandhan-family-1.webp',
-            
+
         ]
     },
     {
@@ -364,14 +365,14 @@ const interiorProjects = [
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393861/arcmen/vijay%20sankar/vijay-shankar-family-2.webp',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393861/arcmen/vijay%20sankar/vijay-shankar-family-3.webp',
             'https://res.cloudinary.com/dpflidsbg/image/upload/v1738393861/arcmen/vijay%20sankar/vijay-shankar-family-4.webp',
-            
+
         ]
     }
 ];
 
-const InteriorPage = ({interiordesign}) => {
-    // const { interiordesign } = useParams();
+const InteriorPage = ({ interiordesign }) => {
     const [mappedData, setMappedData] = useState(null);
+    console.log(interiordesign);
 
     useEffect(() => {
         if (interiordesign) {
@@ -381,7 +382,7 @@ const InteriorPage = ({interiordesign}) => {
     }, [interiordesign]);
 
     if (!mappedData) {
-        return <div><PreLoader/></div>; // or any loading indicator
+        return <div><PreLoader /></div>; // or any loading indicator
     }
 
     return (
@@ -468,12 +469,12 @@ const InteriorPage = ({interiordesign}) => {
                                 <p>Call Today for a Free Estimate !</p>
                             </Col>
                             <Col sm="12" md="6" className="align-self-center text-center text-lg-end">
-                                    <Link href="/contact-us">
-                                <button className="InteriorPage-button">
-                                    <span className="btn-button"></span>
-                                    GET A FREE QUOTES
-                                </button>
-                                    </Link>
+                                <Link href="/contact-us">
+                                    <button className="InteriorPage-button">
+                                        <span className="btn-button"></span>
+                                        GET A FREE QUOTES
+                                    </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

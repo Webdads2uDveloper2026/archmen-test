@@ -4,14 +4,17 @@ import './globals.css';
 import Script from 'next/script';
 import { DM_Sans, Montserrat } from 'next/font/google';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arcmeninterior.com';
+const SITE_URL =
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arcmeninterior.com';
 
-const LOGO_URL = 'https://res.cloudinary.com/dpflidsbg/image/upload/v1735189920/arcmen/Icons/arcmen-logo.png';
+const LOGO_URL =
+    'https://res.cloudinary.com/dpflidsbg/image/upload/v1735189920/arcmen/Icons/arcmen-logo.png';
 
 export const metadata = {
     metadataBase: new URL(SITE_URL),
     title: 'Best Interior Designers in Chennai | Arcmen Interior',
-    description: 'With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams',
+    description:
+        'With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams',
     keywords: [
         'Interior designers in Chennai',
         'Best interior designers in Chennai',
@@ -20,19 +23,30 @@ export const metadata = {
         'Modular kitchen designers in Chennai',
         'Architectural design Chennai'
     ],
-    alternates: { canonical: '/' },
+    alternates: {
+        canonical: '/'
+    },
     openGraph: {
         type: 'website',
         siteName: 'Arcmen Interior',
         title: 'Best Interior Designers in Chennai | Arcmen Interior',
-        description: 'Arcmen Interior offers residential interior design, modular kitchens, architectural services, and complete home interior solutions in Chennai.',
-        images: [{ url: LOGO_URL, width: 1200, height: 630, alt: 'Arcmen Interior - Interior Designers in Chennai' }],
+        description:
+            'Arcmen Interior offers residential interior design, modular kitchens, architectural services, and complete home interior solutions in Chennai.',
+        images: [
+            {
+                url: LOGO_URL,
+                width: 1200,
+                height: 630,
+                alt: 'Arcmen Interior - Interior Designers in Chennai'
+            }
+        ],
         locale: 'en_IN'
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Best Interior Designers in Chennai | Arcmen Interior',
-        description: 'Arcmen Interior offers residential interior design, modular kitchens, architectural services, and complete home interior solutions in Chennai.',
+        description:
+            'Arcmen Interior offers residential interior design, modular kitchens, architectural services, and complete home interior solutions in Chennai.',
         images: [LOGO_URL]
     }
 };
@@ -75,7 +89,10 @@ const structuredData = {
                 availableLanguage: ['English', 'Tamil']
             },
 
-            sameAs: ['https://www.facebook.com/arcmeninteriordesign/', 'https://www.instagram.com/arcmeninteriordesigner/']
+            sameAs: [
+                'https://www.facebook.com/arcmeninteriordesign/',
+                'https://www.instagram.com/arcmeninteriordesigner/'
+            ]
         },
 
         {
@@ -84,7 +101,8 @@ const structuredData = {
             name: 'Arcmen Interior',
             legalName: 'Arcmen Interior',
 
-            description: 'Arcmen Interior is an interior design company in Chennai specializing in residential interiors, modular kitchens, architectural design, and customized interior solutions.',
+            description:
+                'Arcmen Interior is an interior design company in Chennai specializing in residential interiors, modular kitchens, architectural design, and customized interior solutions.',
 
             url: `${SITE_URL}/`,
 
@@ -117,7 +135,8 @@ const structuredData = {
 
             address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'No.5, Ramakrishna Main Road, Opp. to Villakku Kadai, Nethaji Nagar, Porur',
+                streetAddress:
+                    'No.5, Ramakrishna Main Road, Opp. to Villakku Kadai, Nethaji Nagar, Porur',
                 addressLocality: 'Chennai',
                 addressRegion: 'Tamil Nadu',
                 postalCode: '600116',
@@ -130,12 +149,20 @@ const structuredData = {
                 longitude: 80.160062
             },
 
-            hasMap: 'https://maps.app.goo.gl/NaRqbJyEBCYSS4zQ6',
+            hasMap:
+                'https://maps.app.goo.gl/NaRqbJyEBCYSS4zQ6',
 
             openingHoursSpecification: [
                 {
                     '@type': 'OpeningHoursSpecification',
-                    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+                    dayOfWeek: [
+                        'Monday',
+                        'Tuesday',
+                        'Wednesday',
+                        'Thursday',
+                        'Friday',
+                        'Saturday'
+                    ],
                     opens: '10:00',
                     closes: '20:00'
                 },
@@ -186,7 +213,8 @@ const structuredData = {
             url: `${SITE_URL}/`,
             name: 'Interior Designers in Chennai | Arcmen Interior',
 
-            description: 'Arcmen Interior provides residential interior design, modular kitchen, architectural design, and customized interior solutions in Chennai.',
+            description:
+                'Arcmen Interior provides residential interior design, modular kitchen, architectural design, and customized interior solutions in Chennai.',
 
             isPartOf: {
                 '@id': `${SITE_URL}/#website`
@@ -207,7 +235,8 @@ const structuredData = {
             url: LOGO_URL,
             width: 1200,
             height: 630,
-            caption: 'Best Interior Designers in Chennai - Arcmen Interior'
+            caption:
+                'Best Interior Designers in Chennai - Arcmen Interior'
         },
 
         {
@@ -229,18 +258,47 @@ const structuredData = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+
             <head>
-                <Script id="google-tag-manager">
+
+                {/* =====================================================
+                    GOOGLE TAG MANAGER
+                    Load GTM as early as possible in <head>
+                ====================================================== */}
+
+                <Script
+                    id="google-tag-manager"
+                    strategy="beforeInteractive"
+                >
                     {`
-                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;
-                        f.parentNode.insertBefore(j,f);
+                        (function(w,d,s,l,i){
+                            w[l]=w[l]||[];
+                            w[l].push({
+                                'gtm.start': new Date().getTime(),
+                                event:'gtm.js'
+                            });
+
+                            var f=d.getElementsByTagName(s)[0],
+                                j=d.createElement(s),
+                                dl=l!='dataLayer'?'&l='+l:'';
+
+                            j.async=true;
+                            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+                            f.parentNode.insertBefore(j,f);
                         })(window,document,'script','dataLayer','GTM-KM4FGMCH');
                     `}
                 </Script>
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16699501737" />
+
+
+                {/* =====================================================
+                    GOOGLE ADS / GTAG
+                ====================================================== */}
+
+                <Script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=AW-16699501737"
+                />
 
                 <Script id="google-analytics">
                     {`
@@ -255,22 +313,41 @@ export default function RootLayout({ children }) {
                         gtag('config', 'AW-16699501737');
                     `}
                 </Script>
-                <Script id="clarity-script" type="text/javascript">
+
+
+                {/* =====================================================
+                    MICROSOFT CLARITY
+                ====================================================== */}
+
+                <Script
+                    id="gtm-script"
+                    strategy="beforeInteractive"
+                >
                     {`
-                        (function(c,l,a,r,i,t,y){
-                            c[a]=c[a]||function(){
-                                (c[a].q=c[a].q||[]).push(arguments)
-                            };
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event:'gtm.js'
+            });
 
-                            t=l.createElement(r);
-                            t.async=1;
-                            t.src="https://www.clarity.ms/tag/"+i;
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
 
-                            y=l.getElementsByTagName(r)[0];
-                            y.parentNode.insertBefore(t,y);
-                        })(window, document, "clarity", "script", "qmef31ybn0");
-                    `}
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KM4FGMCH');
+    `}
                 </Script>
+
+
+                {/* =====================================================
+                    STRUCTURED DATA / SCHEMA
+                ====================================================== */}
+
                 <Script
                     id="arcmen-schema"
                     type="application/ld+json"
@@ -278,9 +355,39 @@ export default function RootLayout({ children }) {
                         __html: JSON.stringify(structuredData)
                     }}
                 />
-                <meta name="google-site-verification" content="JNxaaZpUMDIWvSP3qNB1T_wuxEMT-WELXOffj85pho4" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="https://res.cloudinary.com/dpflidsbg/image/upload/v1735293696/arcmen/fav-icon.jpg" type="image/x-icon" sizes="any" />
+
+
+                {/* =====================================================
+                    GOOGLE SITE VERIFICATION
+                ====================================================== */}
+
+                <meta
+                    name="google-site-verification"
+                    content="JNxaaZpUMDIWvSP3qNB1T_wuxEMT-WELXOffj85pho4"
+                />
+
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+
+
+                {/* =====================================================
+                    FAVICON
+                ====================================================== */}
+
+                <link
+                    rel="icon"
+                    href="https://res.cloudinary.com/dpflidsbg/image/upload/v1735293696/arcmen/fav-icon.jpg"
+                    type="image/x-icon"
+                    sizes="any"
+                />
+
+
+                {/* =====================================================
+                    FACEBOOK PIXEL
+                ====================================================== */}
+
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -306,7 +413,8 @@ export default function RootLayout({ children }) {
                                 t.src=v;
 
                                 s=b.getElementsByTagName(e)[0];
-                                s.parentNode.insertBefore(t,s)
+                                s.parentNode.insertBefore(t,s);
+
                             }(
                                 window,
                                 document,
@@ -319,12 +427,31 @@ export default function RootLayout({ children }) {
                         `
                     }}
                 />
+
+
+                {/* Facebook Pixel noscript */}
                 <noscript>
-                    <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=1002700818509764&ev=PageView&noscript=1" />
+                    <img
+                        height="1"
+                        width="1"
+                        style={{ display: 'none' }}
+                        src="https://www.facebook.com/tr?id=1002700818509764&ev=PageView&noscript=1"
+                    />
                 </noscript>
+
             </head>
 
-            <body className={`${dmSans.className} ${montserrat.className}`}>
+
+            {/* =========================================================
+                BODY
+                GTM NOSCRIPT MUST BE IMMEDIATELY AFTER OPENING <body>
+            ========================================================== */}
+
+            <body
+                className={`${dmSans.className} ${montserrat.className}`}
+            >
+
+                {/* Google Tag Manager (noscript) */}
                 <noscript>
                     <iframe
                         src="https://www.googletagmanager.com/ns.html?id=GTM-KM4FGMCH"
@@ -336,8 +463,16 @@ export default function RootLayout({ children }) {
                         }}
                     />
                 </noscript>
-                <div>{children}</div>
+
+                {/* End Google Tag Manager (noscript) */}
+
+
+                <div>
+                    {children}
+                </div>
+
             </body>
+
         </html>
     );
 }

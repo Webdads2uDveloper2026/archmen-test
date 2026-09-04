@@ -40,7 +40,7 @@ const NAVIGATION_MENU = [
     { label: 'About Us', href: '/aboutus', activeTab: 'About Us' },
     { label: 'Interior Design', href: '/residential-interior-designers-in-chennai', activeTab: 'Interior Design' },
     { label: 'Architectural Services', href: '/architect-interior-in-chennai', activeTab: 'Architectural Services' },
-    { label: 'Modular Kitchen', href: '/modular-kitchen', activeTab: 'Modular Kitchen' },
+    { label: 'Modular Kitchen', href: '/modular-kitchen-chennai', activeTab: 'Modular Kitchen' },
     {
         label: 'Projects',
         activeTab: 'Gallery',
@@ -81,7 +81,7 @@ const PATH_TO_TAB = {
 
 const getActiveTab = (path) => {
     if (path in PATH_TO_TAB) return PATH_TO_TAB[path];
-    if (path.startsWith('/modular-kitchen')) return 'Modular Kitchen';
+    if (path.startsWith('/modular-kitchen-chennai')) return 'Modular Kitchen';
     if (path.startsWith('/interior-design-projects') || path.startsWith('/architectural-projects')) return 'Gallery';
     if (path.startsWith('/blog') || path.startsWith('/wood-factory') || path.startsWith('/faqs') || path.startsWith('/career') || path.startsWith('/refer-and-earn')) return 'More';
     return '';

@@ -1,6 +1,7 @@
 import React from 'react';
 import './interior.css';
 import InteriorPage from './InteriorPage';
+import { notFound } from 'next/navigation';
 
 const interiorProjects = [
     {
@@ -109,7 +110,7 @@ const interiorProjects = [
     },
     {
         headingTitle: 'Mrs.Nithya Srinivasan',
-        titleUrl: '3bhk-apartment-adayar-interior',
+        titleUrl: 'mrs-nithya-srinivasan',
         interiorType: '3BHK Apartment Interior',
         metaTitle: '3 bhk flat interior design in chennai',
         metaDescription: 'Transform your 3 BHK flat with our impeccable interior design. Achieve a perfect balance of style and functionality for a stunning living experience.',
@@ -125,7 +126,7 @@ const interiorProjects = [
     },
     {
         headingTitle: 'Rama Elangovan',
-        titleUrl: '3bhk-apartment-velacherry-interior',
+        titleUrl: 'mr-rama-elangovan',
         interiorType: '3BHK Apartment Interior',
         metaTitle: '',
         metaDescription: '',
@@ -133,7 +134,7 @@ const interiorProjects = [
     },
     {
         headingTitle: 'Mr.Srinath Kanya',
-        titleUrl: 'individual-house-kknagar-interior',
+        titleUrl: 'mr-srinath-kanya',
         interiorType: 'Individual House Interior design',
         metaTitle: '',
         metaDescription: '',
@@ -141,7 +142,7 @@ const interiorProjects = [
     },
     {
         headingTitle: 'Mr.Arundev',
-        titleUrl: 'individual-duplex-house-annanagar-interior',
+        titleUrl: 'mr-arun-dev',
         interiorType: 'Individual Duplex House Interior',
         metaTitle: '',
         metaDescription: '',
@@ -172,6 +173,11 @@ export async function generateMetadata({ params }) {
 
 
     const metadata = {
+        alternates: {
+            canonical: project
+                ? `/interior-design-projects/${project.titleUrl}`
+                : `/interior-design-projects/${interiordesign}`,
+        },
         title: project ? project.metaTitle : 'Luxury interior designer in chennai | Luxury Interior Designer',
         description: project ? project.metaDescription : 'Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover',
         keywords: project
@@ -186,6 +192,10 @@ const Page = async ({ params }) => {
     const { interiordesign } = await params;
 
     const project = interiorProjects.find((project) => project.titleUrl === interiordesign);
+
+    if (!project) {
+        notFound();
+    }
 
     return (
         <div>

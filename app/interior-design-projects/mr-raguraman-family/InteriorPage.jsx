@@ -50,7 +50,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'Mr Rama Elangovan',
-        titleUrl: '3bhk-apartment-velacherry-interior',
+        titleUrl: 'mr-rama-elangovan',
         interiorType: '',
         sections: [
             ``
@@ -69,7 +69,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'Mr.Srinath Kanya',
-        titleUrl: 'individual-house-kknagar-interior',
+        titleUrl: 'mr-srinath-kanya',
         interiorType: '',
         sections: [
             `Arcmen Modular Kitchens and Interiors, I am impressed with the professionalism they have displayed in their work. They completed the activity and delivered on time as promised. Quality of work looks impressive so far. I feel the costing is also comparitively nominal. The wardrobes and the modular kitchen after completion looks very similar to what they showcased with their 3D design. Overall I am satisfied with their customer friendly attitude and professional working style.
@@ -106,7 +106,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'Mr Arun Dev',
-        titleUrl: 'individual-duplex-house-annanagar-interior',
+        titleUrl: 'mr-arun-dev',
         interiorType: '',
         sections: [
             'The team discussed a range of designs for the layout we had in the kitchen as well as bedrooms and came up with many options, following which they also guided on materials selection and fittings with a clear focus on optimising costs. Very satisfied with the work. Delivery – given the variety handled some delays ( few days ) must be accepted. Overall very happy with the fit and finish of the work. Work completed in May 2023.',
@@ -125,7 +125,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'Mrs.Porchelvi',
-        titleUrl: 'individual-house-perambur-interior',
+        titleUrl: 'mrs-porchelvi',
         interiorType: '',
         sections: [
             'Arcmen they’re the Best work doing interior designer in Chennai. 1st they are ask us for booking to start the design for my house, afterward they shared our designs through what’s up then irealized how my house was transforming and then got some corrections with him after finalizing the 3D Design and confirmed the drawing details along with 3D. Then they executed as same in the design. Really we appreciate the Arcmen interior Designer team for the sincere and perfection of work, further I would recommend our friends and family circle to beautify our dream home through Arcmen interior Designer, even without my presence they are coordinating with the construction team as well to finish. I am so much happy & pleased with her work God blessed them bright future for sincere.'
@@ -305,7 +305,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'Mrs.Nithya Srinivasan',
-        titleUrl: '3bhk-apartment-adayar-interior',
+        titleUrl: 'mrs-nithya-srinivasan',
         interiorType: '3BHK Apartment Interior',
         sections: [''],
         sliderImages: [
@@ -441,7 +441,7 @@ const InteriorPage = ({interiordesign}) => {
                                     loading="lazy"
                                 />
                                 <div className="centered">
-                                    <Link href="living-room-double-height-interior-design-architectural/">Mr.Muralidharan</Link>
+                                    <Link href="architectural-projects/living-room-double-height-interior-design-architectural/">Mr.Muralidharan</Link>
                                     <p>Mayiladuthurai</p>
                                 </div>
                             </div>

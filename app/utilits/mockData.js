@@ -25,7 +25,7 @@ export const interiorProjects = [
     },
     {
         headingTitle: 'Mr.Arundev',
-        titleUrl: 'individual-duplex-house-annanagar-interior',
+        titleUrl: 'mr-arun-dev',
         interiorType: 'Individual Duplex House Interior',
         metaTitle: 'Individual Duplex House Interior Design in Anna Nagar | Arcmen',
         metaDescription: 'View Arcmen s individual duplex house interior project in Anna Nagar, showcasing stylish interiors, custom furniture, and contemporary home design solutions.',
@@ -33,7 +33,7 @@ export const interiorProjects = [
     },
     {
         headingTitel: 'Mrs.Porchelvi',
-        titleUrl: 'individual-house-perambur-interior',
+        titleUrl: 'mrs-porchelvi',
         interiorType: '',
         metaTitle: 'Individual House Interior Design in Perambur, Chennai | Arcmen',
         metaDescription: 'Explore Arcmen s individual house interior design project in Perambur with modern layouts, modular interiors, elegant décor, and quality finishes.',
@@ -41,7 +41,7 @@ export const interiorProjects = [
     },
     {
         headingTitle: 'Mr.Srinath Kanya',
-        titleUrl: 'individual-house-kknagar-interior',
+        titleUrl: 'mr-srinath-kanya',
         interiorType: 'Individual House Interior design',
         metaTitle: 'Individual House Interior Design in KK Nagar, Chennai | Arcmen',
         metaDescription: 'Discover Arcmen s individual house interior project in KK Nagar with customised interiors, elegant furnishings, smart space planning, and premium craftsmanship.',
@@ -49,7 +49,7 @@ export const interiorProjects = [
     },
     {
         headingTitle: 'Rama Elangovan',
-        titleUrl: '3bhk-apartment-velacherry-interior',
+        titleUrl: 'mr-rama-elangovan',
         interiorType: '3BHK Apartment Interior',
         metaTitle: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen',
         metaDescription: 'Explore Arcmen s 3BHK apartment interior project in Velachery, featuring modern designs, modular storage, premium finishes, and functional living spaces.',
@@ -114,7 +114,7 @@ export const interiorProjects = [
     },
     {
         headingTitle: 'Mrs.Nithya Srinivasan',
-        titleUrl: '3bhk-apartment-adayar-interior',
+        titleUrl: 'mrs-nithya-srinivasan',
         interiorType: '3BHK Apartment Interior',
         metaTitle: '3BHK Apartment Interior Design in Adyar, Chennai | Arcmen',
         metaDescription: 'Explore a beautifully designed 3BHK apartment interior project in Adyar by Arcmen, featuring modern décor, modular storage, and elegant living spaces.',

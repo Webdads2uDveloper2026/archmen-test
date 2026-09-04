@@ -97,7 +97,7 @@ const Interiorhero = () => {
                                 ></img>
                                 <div className="overlay">
                                     {' '}
-                                    <Link href="interior-design-projects/3bhk-apartment-adayar-interior/">Mrs.Nithya Srinivasan</Link>
+                                    <Link href="interior-design-projects/mrs-nithya-srinivasan/">Mrs.Nithya Srinivasan</Link>
                                 </div>
                             </div>
                         </Col>
@@ -139,7 +139,7 @@ const Interiorhero = () => {
                             <div className="project-card">
                                 <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735368181/arcmen/Rama%20Elangovan/rama-elangovan-interior-01.jpg" alt="Mr Rama Elangovan" className="image"></img>
                                 <div className="overlay">
-                                    <Link href="interior-design-projects/3bhk-apartment-velacherry-interior/">Mr.Rama Elangovan</Link>
+                                    <Link href="interior-design-projects/mr-rama-elangovan/">Mr.Rama Elangovan</Link>
                                 </div>
                             </div>
                         </Col>
@@ -147,7 +147,7 @@ const Interiorhero = () => {
                             <div className="project-card">
                                 <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1738328278/arcmen/Mr.Srinath/srinath.jpg" alt="Mr.Srinath" className="image"></img>
                                 <div className="overlay">
-                                    <Link href="interior-design-projects/ndividual-house-kknagar-interior/">Mr.Srinath <br />Kanya Parkview- KK nagar</Link>
+                                    <Link href="interior-design-projects/mr-srinath-kanya/">Mr.Srinath <br />Kanya Parkview- KK nagar</Link>
                                 </div>
                             </div>
                         </Col>
@@ -161,7 +161,7 @@ const Interiorhero = () => {
                                     className="image"
                                 ></img>
                                 <div className="overlay">
-                                    <Link href="interior-design-projects/individual-duplex-house-annanagar-interior/">Mr.Arun Dev<br></br> Annanagar</Link>
+                                    <Link href="interior-design-projects/mr-arun-dev/">Mr.Arun Dev<br></br> Annanagar</Link>
                                 </div>
                             </div>
                         </Col>
@@ -173,7 +173,7 @@ const Interiorhero = () => {
                                     className="image"
                                 ></img>
                                 <div className="overlay">
-                                    <Link href="interior-design-projects/individual-house-perambur-interior/">Mrs.Porchelvi <br></br>Perambur</Link>
+                                    <Link href="interior-design-projects/mrs-porchelvi/">Mrs.Porchelvi <br></br>Perambur</Link>
                                 </div>
                             </div>
                         </Col>

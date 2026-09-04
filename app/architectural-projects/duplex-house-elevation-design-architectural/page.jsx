@@ -16,7 +16,7 @@ export const metadata = {
         'top luxury interior designers',
     ],
     alternates: {
-        canonical: '/interior-design-architectural',
+        canonical: '/architectural-projects/interior-design-architectural',
     },
 };
 

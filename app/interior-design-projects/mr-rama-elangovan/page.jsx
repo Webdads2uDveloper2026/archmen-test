@@ -1,19 +1,25 @@
 export const metadata = {
-    title: 'Individual House Interior Design in Perambur, Chennai | Arcmen',
-    description: 'Explore Arcmen’s individual house interior design project in Perambur with modern layouts, modular interiors, elegant décor, and quality finishes.',
+    title: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen',
+    description: 'Explore Arcmen’s 3BHK apartment interior project in Velachery, featuring modern designs, modular storage, premium finishes, and functional living spaces.',
     keywords: ['Interior designers in Chennai', 'Best interior designers in Chennai', 'Luxury interior designers', 'Home interior designers in Chennai', 'Interior decorators in Chennai'],
-    alternates: { canonical: '/interior-design-projects/individual-house-perambur-interior' }
+    alternates: { canonical: '/interior-design-projects/mr-rama-elangovan' }
 };
 
 import React from 'react';
 import '../../../style/interior.css';
 import InteriorPage from './InteriorPage';
 import { interiorProjects } from '@/app/utilits/mockData';
+import { notFound } from 'next/navigation';
+
 
 
 
 const Page = async () => {
-    const project = interiorProjects.find((project) => project.titleUrl === "individual-house-perambur-interior");
+    const project = interiorProjects.find((project) => project.titleUrl === "mr-rama-elangovan");
+
+    if (!project) {
+        notFound();
+    }
 
     return (
         <div>

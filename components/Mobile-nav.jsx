@@ -41,13 +41,13 @@ function Offcanvasmobile() {
                                 </li>
                                 <li>
                                     <Link href="/residential-interior-designers-in-chennai" onClick={handleToggle}>Residential Interior Design</Link>
-                                    {/* <Link href="/interior-designing-company-in-chennai" onClick={handleToggle}>Interior Design</Link> */}
+                                    {/* <Link href="/residential-interior-designers-in-chennai" onClick={handleToggle}>Interior Design</Link> */}
                                 </li>
                                 <li>
                                     <Link href="/architect-interior-in-chennai" onClick={handleToggle}>Architectural Services</Link>
                                 </li>
                                 <li>
-                                    <Link href="/modular-kitchen" onClick={handleToggle}>Modular Kitchen</Link>
+                                    <Link href="/modular-kitchen-chennai" onClick={handleToggle}>Modular Kitchen</Link>
                                 </li>
                                 <li>
                                     <NavDropdown
