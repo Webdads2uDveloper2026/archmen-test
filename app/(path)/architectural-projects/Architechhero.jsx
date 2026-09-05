@@ -92,7 +92,7 @@ const Architechhero = () => {
                             <div className="project-card">
                                 <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735205673/arcmen/Architectural/ilayas.jpg" alt="narayana-rao-individual-house interior designing company" loading="lazy" className="image img-fluid"></img>
                                 <div className="overlay">
-                                    <Link href="architectural-projects/duplux-house-elevation-design-peravurani-architectural/">IlayasMr.ilayas</Link>
+                                    <Link href="architectural-projects/duplex-house-elevation-design-peravurani-architectural/">IlayasMr.ilayas</Link>
                                     <p>Kumbakonam</p>
                                 </div>
                             </div>

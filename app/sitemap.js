@@ -31,7 +31,7 @@ const urls = [
   '/architectural-projects/duplex-house-elevation-design-front-ayyampettai-architectural',
   '/architectural-projects/duplex-house-elevation-design-nolambur-architectural',
   '/architectural-projects/duplex-villa-elevation-design-architectural',
-  '/architectural-projects/duplux-house-elevation-design-peravurani-architectural',
+  '/architectural-projects/duplex-house-elevation-design-peravurani-architectural',
   '/architectural-projects/elevation-design-architectural',
   '/architectural-projects/individual-house-interior',
   '/architectural-projects/interior-decorators-role',

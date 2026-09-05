@@ -3,6 +3,9 @@ import './interior.css';
 import InteriorPage from './InteriorPage';
 import { notFound } from 'next/navigation';
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arcmeninterior.com';
+const OG_IMAGE = "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp";
+
 const interiorProjects = [
     {
         headingTitle: 'Mr Raja & Family',
@@ -168,39 +171,49 @@ const interiorProjects = [
 
 export async function generateMetadata({ params }) {
     const { interiordesign } = await params;
-
     const project = interiorProjects.find((project) => project.titleUrl === interiordesign);
-
-
-    const metadata = {
-        alternates: {
-            canonical: project
-                ? `/interior-design-projects/${project.titleUrl}`
-                : `/interior-design-projects/${interiordesign}`,
-        },
-        title: project ? project.metaTitle : 'Luxury interior designer in chennai | Luxury Interior Designer',
-        description: project ? project.metaDescription : 'Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover',
-        keywords: project
-            ? project.metaKeywords.split('|').map(keyword => keyword.trim())
-            : ['Luxury interior designer in chennai', 'Luxury Interior Designer', 'luxury interior designers', 'high end interior designers', 'top luxury interior designers']
+    const title = project?.metaTitle || 'Luxury Interior Designer in Chennai | Arcmen Interior';
+    const description = project?.metaDescription || 'Luxury interior designer in Chennai providing customized residential interiors, modern designs, and complete home interior solutions.';
+    const canonical = `${SITE_URL}/interior-design-projects/${interiordesign}`;
+    return {
+        title,
+        description,
+        keywords: project?.metaKeywords ? project.metaKeywords.split('|').map((keyword) => keyword.trim()) : ['Interior designers in Chennai', 'Arcmen Interior'],
+        robots: 'index,follow',
+        alternates: { canonical },
+        openGraph: { type: 'website', url: canonical, siteName: 'Arcmen Interior', title, description, images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: title }], locale: 'en_IN' },
+        twitter: { card: 'summary_large_image', title, description, images: [{ url: OG_IMAGE, alt: title }] }
     };
-
-    return metadata;
 }
 
 const Page = async ({ params }) => {
     const { interiordesign } = await params;
-
     const project = interiorProjects.find((project) => project.titleUrl === interiordesign);
-
-    if (!project) {
-        notFound();
-    }
-
+    if (!project) notFound();
+    const canonical = `${SITE_URL}/interior-design-projects/${project.titleUrl}`;
+    const pageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${canonical}#webpage`,
+        'url': canonical,
+        'name': project.metaTitle || project.headingTitle,
+        'description': project.metaDescription || 'Arcmen Interior residential interior design project.',
+        'isPartOf': { '@id': `${SITE_URL}/#website` },
+        'about': { '@id': `${SITE_URL}/#organization` },
+        'breadcrumb': {
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${SITE_URL}/` },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Interior Design Projects', 'item': `${SITE_URL}/interior-design-projects` },
+                { '@type': 'ListItem', 'position': 3, 'name': project.headingTitle, 'item': canonical }
+            ]
+        }
+    };
     return (
-        <div>
-            <InteriorPage interiordesign={project.titleUrl} />
-        </div>
+        <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
+            <div><InteriorPage interiordesign={project.titleUrl} /></div>
+        </>
     );
 };
 

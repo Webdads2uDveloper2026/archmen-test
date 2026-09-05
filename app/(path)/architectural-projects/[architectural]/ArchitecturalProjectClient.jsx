@@ -73,7 +73,7 @@ const interiorProjects = [
     },
     {
         headingTitel: 'IlayasMr.ilayas',
-        titleUrl: 'duplux-house-elevation-design-peravurani-architectural',
+        titleUrl: 'duplex-house-elevation-design-peravurani-architectural',
         interiorType: 'Duplux House Elevation Design',
         location: 'Kumbakonam',
         sections: [],

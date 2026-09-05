@@ -4,7 +4,7 @@ export const interiorProjects = [
         titleUrl: 'mr-raja-family',
         interiorType: '',
         metaTitle: 'Home Interior Design for Mr. Raja Family | Arcmen Chennai',
-        metaDescription: 'Explore the Mr. Raja Family home interior design project by Arcmen, featuring modern living spaces, smart storage, elegant finishes, and functional interiors in Chennai.',
+        metaDescription: 'Explore Arcmen`s modern interior design for the Mr. Raja family home in Chennai, featuring smart storage, elegant finishes & functional living spaces.',
         metaKeywords: 'Luxury interior designer in porur | Luxury interior designer | Luxury interior in porur | interior designers in porur | modern interiors porur'
     },
     {
@@ -84,7 +84,7 @@ export const interiorProjects = [
         titleUrl: 'mr-harish-family',
         interiorType: '',
         metaTitle: 'Mr. Harish Family Home Interior Design Project in Chennai | Arcmen',
-        metaDescription: 'Explore the Mr. Harish Family residential interior project by Arcmen, featuring stylish home interiors, functional layouts, and bespoke design solutions.',
+        metaDescription: 'Explore Arcmen\'s interior design architectural project featuring modern layouts, elegant interiors, functional planning, and premium design solutions.',
         metaKeywords:
             'interior decorators | interior decoration | interior decorator | interior designers | interior decorator | interiors | interior designer | best interior decorators | interior decoration interior decors | furniture | interior decoration pictures interior designers | interior decorator home interior decorators | home decorators | interior decoration | interior decorators interior designing | home interior designers'
     },

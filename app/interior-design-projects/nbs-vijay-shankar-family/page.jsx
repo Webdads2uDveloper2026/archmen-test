@@ -1,3 +1,69 @@
+const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.arcmeninterior.com/interior-design-projects/nbs-vijay-shankar-family#webpage",
+    "url": "https://www.arcmeninterior.com/interior-design-projects/nbs-vijay-shankar-family",
+    "name": "Luxury interior designer in chennai | Luxury Interior Designer",
+    "description": "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
+    "isPartOf": {
+        "@id": "https://www.arcmeninterior.com/#website"
+    },
+    "about": {
+        "@id": "https://www.arcmeninterior.com/#organization"
+    },
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.arcmeninterior.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Interior Design Projects",
+                "item": "https://www.arcmeninterior.com/interior-design-projects"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Nbs Vijay Shankar Family",
+                "item": "https://www.arcmeninterior.com/interior-design-projects/nbs-vijay-shankar-family"
+            }
+        ]
+    }
+};
+export const metadata = {
+    title: "Luxury interior designer in chennai | Luxury Interior Designer",
+    description: "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
+    keywords: ['Interior designers in Chennai', 'Arcmen Interior', 'Home interior design', 'Interior design Chennai'],
+    robots: 'index,follow',
+    alternates: { canonical: "https://www.arcmeninterior.com/interior-design-projects/nbs-vijay-shankar-family" },
+    openGraph: {
+        type: 'website',
+        url: "https://www.arcmeninterior.com/interior-design-projects/nbs-vijay-shankar-family",
+        siteName: 'Arcmen Interior',
+        title: "Luxury interior designer in chennai | Luxury Interior Designer",
+        description: "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
+        images: [{
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            width: 1200,
+            height: 630,
+            alt: "Luxury interior designer in chennai | Luxury Interior Designer"
+        }],
+        locale: 'en_IN'
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: "Luxury interior designer in chennai | Luxury Interior Designer",
+        description: "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Luxury interior designer in chennai | Luxury Interior Designer" }]
+    }
+};
+
+
 import React from 'react';
 import '../../../style/interior.css';
 import InteriorPage from './InteriorPage';
@@ -166,32 +232,20 @@ const interiorProjects = [
     }
 ];
 
-export async function generateMetadata() {
-
-    const project = interiorProjects.find((project) => project.titleUrl === "nbs-vijay-shankar-family");
-    const metadata = {
-        title: project ? project.metaTitle : 'Luxury interior designer in chennai | Luxury Interior Designer',
-        alternates: {
-            canonical: `/interior-design-projects/${project?.titleUrl}`,
-        },
-        description: project ? project.metaDescription : 'Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover',
-        keywords: project
-            ? project.metaKeywords.split('|').map(keyword => keyword.trim())
-            : ['Luxury interior designer in chennai', 'Luxury Interior Designer', 'luxury interior designers', 'high end interior designers', 'top luxury interior designers']
-    };
-
-    return metadata;
-}
 
 const Page = async () => {
 
     const project = interiorProjects.find((project) => project.titleUrl === "nbs-vijay-shankar-family");
 
     return (
-        <div>
-            <InteriorPage interiordesign={project.titleUrl} />
-        </div>
-    );
+        <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
+
+            <div>
+                <InteriorPage interiordesign={project.titleUrl} />
+            </div>
+
+        </>);
 };
 
 export default Page;

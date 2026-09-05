@@ -207,27 +207,7 @@ const structuredData = {
             }
         },
 
-        {
-            '@type': 'WebPage',
-            '@id': `${SITE_URL}/#webpage`,
-            url: `${SITE_URL}/`,
-            name: 'Interior Designers in Chennai | Arcmen Interior',
-
-            description:
-                'Arcmen Interior provides residential interior design, modular kitchen, architectural design, and customized interior solutions in Chennai.',
-
-            isPartOf: {
-                '@id': `${SITE_URL}/#website`
-            },
-
-            about: {
-                '@id': `${SITE_URL}/#organization`
-            },
-
-            primaryImageOfPage: {
-                '@id': `${SITE_URL}/#primaryimage`
-            }
-        },
+        
 
         {
             '@type': 'ImageObject',
@@ -239,19 +219,7 @@ const structuredData = {
                 'Best Interior Designers in Chennai - Arcmen Interior'
         },
 
-        {
-            '@type': 'BreadcrumbList',
-            '@id': `${SITE_URL}/#breadcrumb`,
-
-            itemListElement: [
-                {
-                    '@type': 'ListItem',
-                    position: 1,
-                    name: 'Home',
-                    item: `${SITE_URL}/`
-                }
-            ]
-        }
+        
     ]
 };
 
