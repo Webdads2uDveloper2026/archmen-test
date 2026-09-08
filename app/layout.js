@@ -10,7 +10,7 @@ const SITE_URL =
 const LOGO_URL =
     'https://res.cloudinary.com/dpflidsbg/image/upload/v1735189920/arcmen/Icons/arcmen-logo.png';
 
-export const metadata = {
+export const metadata = { 
     metadataBase: new URL(SITE_URL),
     title: 'Best Interior Designers in Chennai | Arcmen Interior',
     description:
