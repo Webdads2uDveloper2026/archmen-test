@@ -1,32 +1,43 @@
 const BASE_URL = 'https://www.arcmeninterior.com';
 
 const urls = [
-  // Main pages
+  // =========================================================
+  // CORE / TARGET PAGES — PRIORITY 1.0
+  // =========================================================
+
+  '/',
   '/interior-design-chennai',
+  '/residential-interior-designers-in-chennai',
   '/modular-kitchen-chennai',
-  '/aboutus',
+  '/interior-designers-chennai',
+  '/home-interior-designers-in-chennai',
   '/architect-interior-in-chennai',
   '/architectural-projects',
-  '/blog',
-  '/career',
-  '/contact-us',
-  '/eco-glass-modular-kitchen',
-  '/ecodura-modular-kitchen',
-  '/faqs',
-  '/g-rich-modular-kitchen',
-  '/home-interior-designers-in-chennai',
-  '/how-we-process-works',
   '/interior-design-projects',
-  '/interior-designers-chennai',
+
+  // =========================================================
+  // IMPORTANT PAGES — PRIORITY 0.8
+  // =========================================================
+
+  '/aboutus',
+  '/contact-us',
+  '/services/modular-kitchen',
   '/island-kitchen-designer',
   '/luxury-glass-modular-kitchen',
-  '/refer-and-earn',
-  '/residential-interior-designers-in-chennai',
+  '/eco-glass-modular-kitchen',
+  '/ecodura-modular-kitchen',
+  '/g-rich-modular-kitchen',
   '/retro-modular-kitchen',
-  '/services/modular-kitchen',
   '/wood-factory',
+  '/how-we-process-works',
+  '/faqs',
+  '/career',
+  '/refer-and-earn',
 
-  // Architectural projects
+  // =========================================================
+  // ARCHITECTURAL PROJECTS — PRIORITY 0.7
+  // =========================================================
+
   '/architectural-projects/duplex-house-elevation-design-architectural',
   '/architectural-projects/duplex-house-elevation-design-front-ayyampettai-architectural',
   '/architectural-projects/duplex-house-elevation-design-nolambur-architectural',
@@ -45,7 +56,10 @@ const urls = [
   '/architectural-projects/row-house-architectural',
   '/architectural-projects/villa-elevation-design-sadik-architectural',
 
-  // Interior design projects - migrated canonical URLs
+  // =========================================================
+  // INTERIOR DESIGN PROJECTS — PRIORITY 0.7
+  // =========================================================
+
   '/interior-design-projects/mr-arun-dev',
   '/interior-design-projects/mr-baskaran-family',
   '/interior-design-projects/mr-dhanasekar-family',
@@ -63,17 +77,61 @@ const urls = [
   '/interior-design-projects/mrs-porchelvi',
   '/interior-design-projects/nbs-vijay-shankar-family',
 
-  // Homepage
-  '/',
+  // =========================================================
+  // BLOG — PRIORITY 0.7
+  // =========================================================
+
+  '/blog',
 ];
 
 export default function sitemap() {
-  const lastModified = new Date('2026-09-04T06:11:10.558Z');
+  const lastModified = new Date('2026-09-11T00:00:00.000Z');
 
-  return urls.map((path) => ({
-    url: `${BASE_URL}${path}`,
-    lastModified,
-    changeFrequency: 'monthly',
-    priority: path === '/contact-us' ? 0.8 : 0.7,
-  }));
+  return urls.map((path) => {
+    let priority = 0.7;
+
+    // Core / target pages
+    const corePages = [
+      '/',
+      '/interior-design-chennai',
+      '/residential-interior-designers-in-chennai',
+      '/modular-kitchen-chennai',
+      '/interior-designers-chennai',
+      '/home-interior-designers-in-chennai',
+      '/architect-interior-in-chennai',
+      '/architectural-projects',
+      '/interior-design-projects',
+    ];
+
+    // Important pages
+    const importantPages = [
+      '/aboutus',
+      '/contact-us',
+      '/services/modular-kitchen',
+      '/island-kitchen-designer',
+      '/luxury-glass-modular-kitchen',
+      '/eco-glass-modular-kitchen',
+      '/ecodura-modular-kitchen',
+      '/g-rich-modular-kitchen',
+      '/retro-modular-kitchen',
+      '/wood-factory',
+      '/how-we-process-works',
+      '/faqs',
+      '/career',
+      '/refer-and-earn',
+    ];
+
+    if (corePages.includes(path)) {
+      priority = 1.0;
+    } else if (importantPages.includes(path)) {
+      priority = 0.8;
+    }
+
+    return {
+      url: `${BASE_URL}${path}`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority,
+    };
+  });
 }
