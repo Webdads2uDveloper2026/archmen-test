@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Baskaran Family Home Interior Design Project in Chennai | Arcmen",
         description: "View the Mr. Baskaran Family home interior project by Arcmen, showcasing stylish living spaces, custom furniture, modular designs, and premium interiors in Chennai.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735291032/arcmen/mr-baskaran-family/Baskaran-1.jpg",
             width: 1200,
             height: 630,
             alt: "Mr. Baskaran Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Baskaran Family Home Interior Design Project in Chennai | Arcmen",
         description: "View the Mr. Baskaran Family home interior project by Arcmen, showcasing stylish living spaces, custom furniture, modular designs, and premium interiors in Chennai.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Baskaran Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735291032/arcmen/mr-baskaran-family/Baskaran-1.jpg", alt: "Mr. Baskaran Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

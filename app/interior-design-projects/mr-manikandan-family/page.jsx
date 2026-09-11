@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Manikandan Family Home Interior Design Project in Chennai | Arcmen",
         description: "Explore the Mr. Manikandan Family interior design project by Arcmen with modern aesthetics, customised furniture, and functional home interior solutions.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735295081/arcmen/Mr%20Manikandan%20Family/cshhigzmzzzjxdtwdywi.jpg",
             width: 1200,
             height: 630,
             alt: "Mr. Manikandan Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Manikandan Family Home Interior Design Project in Chennai | Arcmen",
         description: "Explore the Mr. Manikandan Family interior design project by Arcmen with modern aesthetics, customised furniture, and functional home interior solutions.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Manikandan Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735295081/arcmen/Mr%20Manikandan%20Family/cshhigzmzzzjxdtwdywi.jpg", alt: "Mr. Manikandan Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

@@ -3,8 +3,8 @@ const pageSchema = {
     "@type": "WebPage",
     "@id": "https://www.arcmeninterior.com/architect-interior-in-chennai#webpage",
     "url": "https://www.arcmeninterior.com/architect-interior-in-chennai",
-    "name": "Architect Interior in Chennai | Arcmen Interior",
-    "description": "Professional architectural and interior design services in Chennai for homes, villas, and residential spaces.",
+    "name": " Best Interior Architects in Chennai | Arcmen Interiors",
+    "description": "Looking for interior architects in Chennai? Arcmen Interior designs functional, elegant residential spaces with customized architectural interior solutions.",
     "isPartOf": {
         "@id": "https://www.arcmeninterior.com/#website"
     },
@@ -30,8 +30,8 @@ const pageSchema = {
     }
 };
 export const metadata = {
-    title: "Architect Interior in Chennai | Arcmen Interior",
-    description: "Professional architectural and interior design services in Chennai for homes, villas, and residential spaces.",
+    title: " Best Interior Architects in Chennai | Arcmen Interiors",
+    description: "Looking for interior architects in Chennai? Arcmen Interior designs functional, elegant residential spaces with customized architectural interior solutions.",
     keywords: ['Interior Architects in Chennai'],
     robots: 'index,follow',
     alternates: { canonical: "https://www.arcmeninterior.com/architect-interior-in-chennai" },
@@ -39,21 +39,21 @@ export const metadata = {
         type: 'website',
         url: "https://www.arcmeninterior.com/architect-interior-in-chennai",
         siteName: 'Arcmen Interior',
-        title: "Architect Interior in Chennai | Arcmen Interior",
-        description: "Professional architectural and interior design services in Chennai for homes, villas, and residential spaces.",
+        title: " Best Interior Architects in Chennai | Arcmen Interiors",
+        description: "Looking for interior architects in Chennai? Arcmen Interior designs functional, elegant residential spaces with customized architectural interior solutions.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735276944/arcmen/Gallery/architectural-projects/row-house.jpg",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735204334/arcmen/Architectural/architectural-banner.jpg",
             width: 1200,
             height: 630,
-            alt: "Architect Interior in Chennai | Arcmen Interior"
+            alt: " Best Interior Architects in Chennai | Arcmen Interiors"
         }],
         locale: 'en_IN'
     },
     twitter: {
         card: 'summary_large_image',
-        title: "Architect Interior in Chennai | Arcmen Interior",
-        description: "Professional architectural and interior design services in Chennai for homes, villas, and residential spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735276944/arcmen/Gallery/architectural-projects/row-house.jpg", alt: "Architect Interior in Chennai | Arcmen Interior" }]
+        title: " Best Interior Architects in Chennai | Arcmen Interiors",
+        description: "Looking for interior architects in Chennai? Arcmen Interior designs functional, elegant residential spaces with customized architectural interior solutions.",
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735204334/arcmen/Architectural/architectural-banner.jpg", alt: " Best Interior Architects in Chennai | Arcmen Interiors" }]
     }
 };
 

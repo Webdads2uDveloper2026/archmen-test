@@ -48,7 +48,7 @@ export const metadata = {
         title: "Individual Duplex House Interior Design in Anna Nagar | Arcmen",
         description: "View Arcmen's individual duplex house interior projects in Anna Nagar, showcasing stylish interiors, custom furniture & contemporary design solutions.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738329297/arcmen/Arundev/arundev-interior.jpg",
             width: 1200,
             height: 630,
             alt: "Individual Duplex House Interior Design in Anna Nagar | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Individual Duplex House Interior Design in Anna Nagar | Arcmen",
         description: "View Arcmen's individual duplex house interior projects in Anna Nagar, showcasing stylish interiors, custom furniture & contemporary design solutions.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Individual Duplex House Interior Design in Anna Nagar | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738329297/arcmen/Arundev/arundev-interior.jpg", alt: "Individual Duplex House Interior Design in Anna Nagar | Arcmen" }]
     }
 };
 

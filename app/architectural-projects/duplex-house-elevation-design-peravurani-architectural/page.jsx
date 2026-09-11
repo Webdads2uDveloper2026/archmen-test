@@ -50,7 +50,7 @@ export const metadata = {
         title: "Duplex House Elevation Design in Peravurani | Arcmen",
         description: "Discover Arcmen s duplex house elevation project in Peravurani with elegant exteriors, modern architecture, and thoughtfully designed facades.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735639643/arcmen/Architectural%20Design%20Projects/Ilayas/ilyas-03.jpg",
             width: 1200,
             height: 630,
             alt: "Duplex House Elevation Design in Peravurani | Arcmen"
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Duplex House Elevation Design in Peravurani | Arcmen",
         description: "Discover Arcmen s duplex house elevation project in Peravurani with elegant exteriors, modern architecture, and thoughtfully designed facades.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Duplex House Elevation Design in Peravurani | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735639643/arcmen/Architectural%20Design%20Projects/Ilayas/ilyas-03.jpg", alt: "Duplex House Elevation Design in Peravurani | Arcmen" }]
     }
 };
 

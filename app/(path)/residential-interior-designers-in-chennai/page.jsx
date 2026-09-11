@@ -3,8 +3,8 @@ const pageSchema = {
     "@type": "WebPage",
     "@id": "https://www.arcmeninterior.com/residential-interior-designers-in-chennai#webpage",
     "url": "https://www.arcmeninterior.com/residential-interior-designers-in-chennai",
-    "name": "Residential Interior Designers in Chennai | Arcmen Interior",
-    "description": "Transform your home with customized residential interior design services in Chennai. Arcmen Interior delivers stylish and functional living spaces.",
+    "name": "Best Home Interior Designers in Chennai | Residential Interiors",
+    "description": "Transform your living space with Arcmen Interior, expert home interior decorators in Chennai specializing in apartments, flats, villas, and modern home interiors.",
     "isPartOf": {
         "@id": "https://www.arcmeninterior.com/#website"
     },
@@ -30,8 +30,8 @@ const pageSchema = {
     }
 };
 export const metadata = {
-    title: "Residential Interior Designers in Chennai | Arcmen Interior",
-    description: "Transform your home with customized residential interior design services in Chennai. Arcmen Interior delivers stylish and functional living spaces.",
+    title: "Best Home Interior Designers in Chennai | Residential Interiors",
+    description: "Transform your living space with Arcmen Interior, expert home interior decorators in Chennai specializing in apartments, flats, villas, and modern home interiors.",
     keywords: ["Home Interior Designers in Chennai",
         "Best Home Interior Designers in Chennai",
         "Residential Interior Designers in Chennai",
@@ -44,21 +44,21 @@ export const metadata = {
         type: 'website',
         url: "https://www.arcmeninterior.com/residential-interior-designers-in-chennai",
         siteName: 'Arcmen Interior',
-        title: "Residential Interior Designers in Chennai | Arcmen Interior",
-        description: "Transform your home with customized residential interior design services in Chennai. Arcmen Interior delivers stylish and functional living spaces.",
+        title: "Best Home Interior Designers in Chennai | Residential Interiors",
+        description: "Transform your living space with Arcmen Interior, expert home interior decorators in Chennai specializing in apartments, flats, villas, and modern home interiors.",
         images: [{
             url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740396244/arcmen-interior-main-banner1_xucspf.jpg",
             width: 1200,
             height: 630,
-            alt: "Residential Interior Designers in Chennai | Arcmen Interior"
+            alt: "Best Home Interior Designers in Chennai | Residential Interiors"
         }],
         locale: 'en_IN'
     },
     twitter: {
         card: 'summary_large_image',
-        title: "Residential Interior Designers in Chennai | Arcmen Interior",
-        description: "Transform your home with customized residential interior design services in Chennai. Arcmen Interior delivers stylish and functional living spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740396244/arcmen-interior-main-banner1_xucspf.jpg", alt: "Residential Interior Designers in Chennai | Arcmen Interior" }]
+        title: "Best Home Interior Designers in Chennai | Residential Interiors",
+        description: "Transform your living space with Arcmen Interior, expert home interior decorators in Chennai specializing in apartments, flats, villas, and modern home interiors.",
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740396244/arcmen-interior-main-banner1_xucspf.jpg", alt: "Best Home Interior Designers in Chennai | Residential Interiors" }]
     }
 };
 

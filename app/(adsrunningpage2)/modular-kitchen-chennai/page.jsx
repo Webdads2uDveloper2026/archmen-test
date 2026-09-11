@@ -3,8 +3,8 @@ const pageSchema = {
     "@type": "WebPage",
     "@id": "https://www.arcmeninterior.com/modular-kitchen-chennai#webpage",
     "url": "https://www.arcmeninterior.com/modular-kitchen-chennai",
-    "name": "Best Modular Kitchen Designers & Interiors in chennai",
-    "description": "Bring life to your home with Arcmen Interiors, the best modular kitchen designers in chennai - crafting modern, warm abd soulful kitchen interiors",
+    "name": "Best Modular Kitchen Chennai | Custom Kitchen Desigers",
+    "description": "Transform your cooking space with modular kitchen Chennai solutions. We create customized, space-saving kitchens with modern designs and expert installation.",
     "isPartOf": {
         "@id": "https://www.arcmeninterior.com/#website"
     },
@@ -30,8 +30,8 @@ const pageSchema = {
     }
 };
 export const metadata = {
-    title: "Best Modular Kitchen Designers & Interiors in chennai",
-    description: "Bring life to your home with Arcmen Interiors, the best modular kitchen designers in chennai - crafting modern, warm abd soulful kitchen interiors",
+    title: "Best Modular Kitchen Chennai | Custom Kitchen Desigers",
+    description: "Transform your cooking space with modular kitchen Chennai solutions. We create customized, space-saving kitchens with modern designs and expert installation.",
     keywords: ["Kitchen Interior Designers in Chennai",
         "Modular Kitchen Chennai",
         "Modular Kitchen Companies in Chennai",
@@ -42,22 +42,28 @@ export const metadata = {
         type: 'website',
         url: "https://www.arcmeninterior.com/modular-kitchen-chennai",
         siteName: 'Arcmen Interior',
-        title: "Best Modular Kitchen Designers & Interiors in chennai",
-        description: "Bring life to your home with Arcmen Interiors, the best modular kitchen designers in chennai - crafting modern, warm abd soulful kitchen interiors",
+        title: "Modular Kitchen Designers in Chennai | Arcmen Interior",
+        description: "Explore customized modular kitchen designs in Chennai with premium finishes, smart storage solutions, and expert installation by Arcmen Interior.",
         images: [{
             url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg",
             width: 1200,
             height: 630,
-            alt: "Best Modular Kitchen Designers & Interiors in chennai"
+            alt: "Modular Kitchen Designers in Chennai - Arcmen Interior"
         }],
         locale: 'en_IN'
     },
     twitter: {
-        card: 'summary_large_image',
-        title: "Best Modular Kitchen Designers & Interiors in chennai",
-        description: "Bring life to your home with Arcmen Interiors, the best modular kitchen designers in chennai - crafting modern, warm abd soulful kitchen interiors",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg", alt: "Best Modular Kitchen Designers & Interiors in chennai" }]
-    }
+    card: 'summary_large_image',
+    title: "Modular Kitchen Designers in Chennai | Arcmen Interior",
+    description:
+        "Explore customized modular kitchen designs in Chennai with premium finishes, smart storage solutions, and expert installation by Arcmen Interior.",
+    images: [
+        {
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg",
+            alt: "Modular Kitchen Designers in Chennai - Arcmen Interior"
+        }
+    ]
+}
 };
 
 

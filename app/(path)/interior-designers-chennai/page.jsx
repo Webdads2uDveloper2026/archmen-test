@@ -42,7 +42,7 @@ export const metadata = {
         title: "Interior designers in chennai | Home interior designer in chennai.",
         description: "Premium Best interior designer Chennai, Award winner | We Assure 100% Desing & work satisfy | 15yr Warranty, 3500+ Complete Project",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://arcmen-uploads.s3.us-east-1.amazonaws.com/images/1778652750486-bedroom-2.webp",
             width: 1200,
             height: 630,
             alt: "Best Interior designers in chennai | Home interior designer in chennai."
@@ -53,7 +53,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Interior designers in chennai | Home interior designer in chennai.",
         description: "Premium Best interior designer Chennai, Award winner | We Assure 100% Desing & work satisfy | 15yr Warranty, 3500+ Complete Project",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Best Interior designers in chennai | Home interior designer in chennai." }]
+        images: [{ url: "https://arcmen-uploads.s3.us-east-1.amazonaws.com/images/1778652750486-bedroom-2.webp", alt: "Best Interior designers in chennai | Home interior designer in chennai." }]
     }
 };
 

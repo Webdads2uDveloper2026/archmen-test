@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Raguraman Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Raguraman family home in Chennai, with thoughtful room layouts, quality finishes and contemporary space.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735300987/arcmen/mr-raguraman-family/raku-1.png",
             width: 1200,
             height: 630,
             alt: "Mr. Raguraman Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Raguraman Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Raguraman family home in Chennai, with thoughtful room layouts, quality finishes and contemporary space.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Raguraman Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735300987/arcmen/mr-raguraman-family/raku-1.png", alt: "Mr. Raguraman Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

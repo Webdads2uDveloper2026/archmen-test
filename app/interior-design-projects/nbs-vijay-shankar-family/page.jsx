@@ -48,7 +48,7 @@ export const metadata = {
         title: "Luxury interior designer in chennai | Luxury Interior Designer",
         description: "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738393861/arcmen/vijay%20sankar/vijay-shankar-family-1.webp",
             width: 1200,
             height: 630,
             alt: "Luxury interior designer in chennai | Luxury Interior Designer"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Luxury interior designer in chennai | Luxury Interior Designer",
         description: "Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Luxury interior designer in chennai | Luxury Interior Designer" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738393861/arcmen/vijay%20sankar/vijay-shankar-family-1.webp", alt: "Luxury interior designer in chennai | Luxury Interior Designer" }]
     }
 };
 

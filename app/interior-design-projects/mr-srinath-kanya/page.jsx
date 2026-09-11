@@ -48,7 +48,7 @@ export const metadata = {
         title: "Individual House Interior Design in KK Nagar, Chennai | Arcmen",
         description: "Discover Arcmen's house interior projects in KK Nagar featuring custom interiors, elegant furnishings, smart space planning and premium craftsmanship.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738328278/arcmen/Mr.Srinath/srinath.jpg",
             width: 1200,
             height: 630,
             alt: "Individual House Interior Design in KK Nagar, Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Individual House Interior Design in KK Nagar, Chennai | Arcmen",
         description: "Discover Arcmen's house interior projects in KK Nagar featuring custom interiors, elegant furnishings, smart space planning and premium craftsmanship.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Individual House Interior Design in KK Nagar, Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1738328278/arcmen/Mr.Srinath/srinath.jpg", alt: "Individual House Interior Design in KK Nagar, Chennai | Arcmen" }]
     }
 };
 

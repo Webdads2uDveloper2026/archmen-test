@@ -50,7 +50,7 @@ export const metadata = {
         title: "Interior Design Architectural Project in Chennai | Arcmen",
         description: "Explore Arcmen's interior design architectural project featuring modern layouts, elegant interiors, functional planning, and premium design solutions.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735629632/arcmen/Architectural%20Design%20Projects/neelkandan/neelkandan-03.jpg",
             width: 1200,
             height: 630,
             alt: "Interior Design Architectural Project in Chennai | Arcmen"
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Interior Design Architectural Project in Chennai | Arcmen",
         description: "Explore Arcmen's interior design architectural project featuring modern layouts, elegant interiors, functional planning, and premium design solutions.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Interior Design Architectural Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735629632/arcmen/Architectural%20Design%20Projects/neelkandan/neelkandan-03.jpg", alt: "Interior Design Architectural Project in Chennai | Arcmen" }]
     }
 };
 

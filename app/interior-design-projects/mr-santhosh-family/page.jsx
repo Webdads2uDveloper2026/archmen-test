@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Santhosh Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover the Mr. Santhosh Family home interior project by Arcmen with contemporary designs, premium materials and customised interiors for every room.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735300203/arcmen/mr-santhosh-family/santhosh-2.png",
             width: 1200,
             height: 630,
             alt: "Mr. Santhosh Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Santhosh Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover the Mr. Santhosh Family home interior project by Arcmen with contemporary designs, premium materials and customised interiors for every room.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Santhosh Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735300203/arcmen/mr-santhosh-family/santhosh-2.png", alt: "Mr. Santhosh Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

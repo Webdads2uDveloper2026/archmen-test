@@ -45,7 +45,7 @@ export const metadata = {
         title: "Best Interior Design Company in Chennai | Arcmen Interior Blog",
         description: "Explore Arcmen Interior’s latest insights, ideas, and guidance on interior design, architecture, modular kitchens, and modern home interiors in Chennai.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735277668/arcmen/blog/living-room-sofa-couch.jpg",
             width: 1200,
             height: 630,
             alt: "Best Interior Design Company in Chennai | Arcmen Interior Blog"
@@ -56,7 +56,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Best Interior Design Company in Chennai | Arcmen Interior Blog",
         description: "Explore Arcmen Interior’s latest insights, ideas, and guidance on interior design, architecture, modular kitchens, and modern home interiors in Chennai.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Best Interior Design Company in Chennai | Arcmen Interior Blog" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735277668/arcmen/blog/living-room-sofa-couch.jpg", alt: "Best Interior Design Company in Chennai | Arcmen Interior Blog" }]
     }
 };
 

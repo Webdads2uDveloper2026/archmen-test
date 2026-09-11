@@ -31,7 +31,7 @@ export const metadata = {
         title: "Interior Design Frequently Asked Questions | Arcmen Interior",
         description: "Find answers to common interior design questions about process, costs, timelines, materials, customization, and home interior services at Arcmen Interior.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735281303/arcmen/FAQ/wall-furniture-design.jpg",
             width: 1200,
             height: 630,
             alt: "Interior Design Frequently Asked Questions | Arcmen Interior"
@@ -42,7 +42,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Interior Design Frequently Asked Questions | Arcmen Interior",
         description: "Find answers to common interior design questions about process, costs, timelines, materials, customization, and home interior services at Arcmen Interior.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Interior Design Frequently Asked Questions | Arcmen Interior" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735281303/arcmen/FAQ/wall-furniture-design.jpg", alt: "Interior Design Frequently Asked Questions | Arcmen Interior" }]
     }
 };
 

@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mrs. Mohan Home Interior Design Project in Chennai | Arcmen",
         description: "View Arcmen's interior design for Mrs. Mohan's home in Chennai, featuring custom interiors, elegant finishes & smart space planning for modern living.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735301564/arcmen/mrs-mohan/mrs-mohan-2.jpg",
             width: 1200,
             height: 630,
             alt: "Mrs. Mohan Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mrs. Mohan Home Interior Design Project in Chennai | Arcmen",
         description: "View Arcmen's interior design for Mrs. Mohan's home in Chennai, featuring custom interiors, elegant finishes & smart space planning for modern living.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mrs. Mohan Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735301564/arcmen/mrs-mohan/mrs-mohan-2.jpg", alt: "Mrs. Mohan Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

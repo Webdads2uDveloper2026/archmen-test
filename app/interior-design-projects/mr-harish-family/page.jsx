@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Harish Family Home Interior Design Project in Chennai | Arcmen",
         description: "Explore Arcmen's residential interior design for the Mr. Harish family in Chennai, featuring stylish interiors, functional layouts and bespoke design.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735296112/arcmen/mr-harish-family/hari-4.png",
             width: 1200,
             height: 630,
             alt: "Mr. Harish Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Harish Family Home Interior Design Project in Chennai | Arcmen",
         description: "Explore Arcmen's residential interior design for the Mr. Harish family in Chennai, featuring stylish interiors, functional layouts and bespoke design.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Harish Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735296112/arcmen/mr-harish-family/hari-4.png", alt: "Mr. Harish Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

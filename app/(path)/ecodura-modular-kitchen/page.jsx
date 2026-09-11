@@ -42,7 +42,7 @@ export const metadata = {
         title: "Ecodura Modular Kitchen Designers in Chennai | Arcmen",
         description: "Discover Ecodura modular kitchen solutions by Arcmen Interior in Chennai, designed with durable finishes, smart storage, and contemporary functionality.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735215277/arcmen/ecodura-modular-kitchen/ecodura-modular-banner.jpg",
             width: 1200,
             height: 630,
             alt: "Ecodura Modular Kitchen Designers in Chennai | Arcmen"
@@ -53,7 +53,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Ecodura Modular Kitchen Designers in Chennai | Arcmen",
         description: "Discover Ecodura modular kitchen solutions by Arcmen Interior in Chennai, designed with durable finishes, smart storage, and contemporary functionality.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Ecodura Modular Kitchen Designers in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735215277/arcmen/ecodura-modular-kitchen/ecodura-modular-banner.jpg", alt: "Ecodura Modular Kitchen Designers in Chennai | Arcmen" }]
     }
 };
 

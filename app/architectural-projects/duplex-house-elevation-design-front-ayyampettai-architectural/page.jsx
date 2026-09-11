@@ -51,7 +51,7 @@ export const metadata = {
         title: "Front Duplex House Elevation Design in Ayyampettai | Arcmen",
         description: "Explore Arcmen s front duplex house elevation project in Ayyampettai featuring stylish facades, modern architecture, and premium exterior designs.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735643201/arcmen/Architectural%20Design%20Projects/Ayyampettai/Ayyampettai%20-02.jpg",
             width: 1200,
             height: 630,
             alt: "Front Duplex House Elevation Design in Ayyampettai | Arcmen"
@@ -62,7 +62,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Front Duplex House Elevation Design in Ayyampettai | Arcmen",
         description: "Explore Arcmen s front duplex house elevation project in Ayyampettai featuring stylish facades, modern architecture, and premium exterior designs.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Front Duplex House Elevation Design in Ayyampettai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735643201/arcmen/Architectural%20Design%20Projects/Ayyampettai/Ayyampettai%20-02.jpg", alt: "Front Duplex House Elevation Design in Ayyampettai | Arcmen" }]
     }
 };
 

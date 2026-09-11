@@ -49,7 +49,7 @@ export const metadata = {
         description: 'Explore Arcmen’s 3BHK apartment interior project in Velachery, featuring modern designs, modular storage, premium finishes, and functional living spaces.',
         images: [
             {
-                url: 'https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp',
+                url: 'https://res.cloudinary.com/dpflidsbg/image/upload/v1735368181/arcmen/Rama%20Elangovan/rama-elangovan-interior-01.jpg',
                 width: 1200,
                 height: 630,
                 alt: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen'
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen',
         description: 'Explore Arcmen’s 3BHK apartment interior project in Velachery, featuring modern designs, modular storage, premium finishes, and functional living spaces.',
-        images: [{ url: 'https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp', alt: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen' }]
+        images: [{ url: 'https://res.cloudinary.com/dpflidsbg/image/upload/v1735368181/arcmen/Rama%20Elangovan/rama-elangovan-interior-01.jpg', alt: '3BHK Apartment Interior Design in Velachery, Chennai | Arcmen' }]
     }
 };
 

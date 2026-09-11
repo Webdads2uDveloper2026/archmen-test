@@ -45,7 +45,7 @@ export const metadata = {
         title: "Interior Designer Jobs in Chennai | Interior Design Career | Arcmen",
         description: "Explore exciting interior designer jobs in Chennai with Arcmen Interior, offering creative projects, professional growth, and career opportunities.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735286584/arcmen/career/breadcrumb.jpg",
             width: 1200,
             height: 630,
             alt: "Interior Designer Jobs in Chennai | Interior Design Career | Arcmen"
@@ -56,7 +56,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Interior Designer Jobs in Chennai | Interior Design Career | Arcmen",
         description: "Explore exciting interior designer jobs in Chennai with Arcmen Interior, offering creative projects, professional growth, and career opportunities.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Interior Designer Jobs in Chennai | Interior Design Career | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735286584/arcmen/career/breadcrumb.jpg", alt: "Interior Designer Jobs in Chennai | Interior Design Career | Arcmen" }]
     }
 };
 

@@ -50,7 +50,7 @@ export const metadata = {
         title: "Interior Design Project in Valasaravakkam, Chennai | Arcmen",
         description: "Discover Arcmen s interior design project in Valasaravakkam with customised layouts, contemporary interiors, and stylish living spaces.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735630053/arcmen/Architectural%20Design%20Projects/maddena/maddena-01.jpg",
             width: 1200,
             height: 630,
             alt: "Interior Design Project in Valasaravakkam, Chennai | Arcmen"
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Interior Design Project in Valasaravakkam, Chennai | Arcmen",
         description: "Discover Arcmen s interior design project in Valasaravakkam with customised layouts, contemporary interiors, and stylish living spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Interior Design Project in Valasaravakkam, Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735630053/arcmen/Architectural%20Design%20Projects/maddena/maddena-01.jpg", alt: "Interior Design Project in Valasaravakkam, Chennai | Arcmen" }]
     }
 };
 

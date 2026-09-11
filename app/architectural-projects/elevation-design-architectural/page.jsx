@@ -48,7 +48,7 @@ export const metadata = {
         title: "Elevation Design & Architectural Projects | Arcmen Chennai",
         description: "Explore elevation design and architectural projects by Arcmen Chennai. Get modern, functional and stylish architectural designs tailored to your space.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735623845/arcmen/Architectural%20Design%20Projects/Joseph%20Sibi/joseph-sibi-01.jpg",
             width: 1200,
             height: 630,
             alt: "Elevation Design & Architectural Projects | Arcmen Chennai"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Elevation Design & Architectural Projects | Arcmen Chennai",
         description: "Explore elevation design and architectural projects by Arcmen Chennai. Get modern, functional and stylish architectural designs tailored to your space.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Elevation Design & Architectural Projects | Arcmen Chennai" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735623845/arcmen/Architectural%20Design%20Projects/Joseph%20Sibi/joseph-sibi-01.jpg", alt: "Elevation Design & Architectural Projects | Arcmen Chennai" }]
     }
 };
 

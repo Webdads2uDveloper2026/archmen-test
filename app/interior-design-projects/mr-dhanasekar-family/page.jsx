@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Dhanasekar Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Dhanasekar family home in Chennai, featuring stylish décor, modular storage and practical living spaces.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735295470/arcmen/mr-dhanasekar-family/New-Project.png",
             width: 1200,
             height: 630,
             alt: "Mr. Dhanasekar Family Home Interior Design Project in Chennai | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Dhanasekar Family Home Interior Design Project in Chennai | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Dhanasekar family home in Chennai, featuring stylish décor, modular storage and practical living spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Dhanasekar Family Home Interior Design Project in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735295470/arcmen/mr-dhanasekar-family/New-Project.png", alt: "Mr. Dhanasekar Family Home Interior Design Project in Chennai | Arcmen" }]
     }
 };
 

@@ -48,7 +48,7 @@ export const metadata = {
         title: "Mr. Kandhan Family Home Interior Design Project | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Kandhan family home, featuring custom interiors, premium materials, functional layouts & elegant spaces.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735217002/arcmen/Gallery/interior-design-projects/mohan-ocean-cholorophyl-interior.jpg",
             width: 1200,
             height: 630,
             alt: "Mr. Kandhan Family Home Interior Design Project | Arcmen"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Mr. Kandhan Family Home Interior Design Project | Arcmen",
         description: "Discover Arcmen's interior design for the Mr. Kandhan family home, featuring custom interiors, premium materials, functional layouts & elegant spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Mr. Kandhan Family Home Interior Design Project | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735217002/arcmen/Gallery/interior-design-projects/mohan-ocean-cholorophyl-interior.jpg", alt: "Mr. Kandhan Family Home Interior Design Project | Arcmen" }]
     }
 };
 

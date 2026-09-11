@@ -42,7 +42,7 @@ export const metadata = {
         title: "Best Home Interior Designers in Chennai | Residential Interiors",
         description: "Transform your living space with Arcmen Interior, expert home interior designers in Chennai specializing in apartments, flats, villas, and modern home interiors.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://arcmen-uploads.s3.us-east-1.amazonaws.com/images/1778648329631-hero-banner.webp",
             width: 1200,
             height: 630,
             alt: "Best Home Interior Designers in Chennai | Residential Interiors"
@@ -53,7 +53,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Best Home Interior Designers in Chennai | Residential Interiors",
         description: "Transform your living space with Arcmen Interior, expert home interior designers in Chennai specializing in apartments, flats, villas, and modern home interiors.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Best Home Interior Designers in Chennai | Residential Interiors" }]
+        images: [{ url: "https://arcmen-uploads.s3.us-east-1.amazonaws.com/images/1778648329631-hero-banner.webp", alt: "Best Home Interior Designers in Chennai | Residential Interiors" }]
     }
 };
 

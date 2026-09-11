@@ -42,7 +42,7 @@ export const metadata = {
         title: "G-Rich Modular Kitchen Designers in Chennai | Arcmen",
         description: "Explore G-Rich modular kitchen designs by Arcmen Interior in Chennai, combining premium finishes, smart storage, functional layouts, and modern style.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735213497/arcmen/g-rich-modular-kitchen/g-rich-island-kitchen.jpg",
             width: 1200,
             height: 630,
             alt: "G-Rich Modular Kitchen Designers in Chennai | Arcmen"
@@ -53,7 +53,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "G-Rich Modular Kitchen Designers in Chennai | Arcmen",
         description: "Explore G-Rich modular kitchen designs by Arcmen Interior in Chennai, combining premium finishes, smart storage, functional layouts, and modern style.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "G-Rich Modular Kitchen Designers in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735213497/arcmen/g-rich-modular-kitchen/g-rich-island-kitchen.jpg", alt: "G-Rich Modular Kitchen Designers in Chennai | Arcmen" }]
     }
 };
 

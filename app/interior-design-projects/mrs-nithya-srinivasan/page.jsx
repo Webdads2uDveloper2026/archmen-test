@@ -3,7 +3,7 @@ const pageSchema = {
     "@type": "WebPage",
     "@id": "https://www.arcmeninterior.com/interior-design-projects/mrs-nithya-srinivasan#webpage",
     "url": "https://www.arcmeninterior.com/interior-design-projects/mrs-nithya-srinivasan",
-    "name": "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen",
+    "name": "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen",
     "description": "Explore a beautifully designed 3BHK apartment interior project in Adyar by Arcmen, featuring modern décor, modular storage, and elegant living spaces.",
     "isPartOf": {
         "@id": "https://www.arcmeninterior.com/#website"
@@ -36,7 +36,7 @@ const pageSchema = {
     }
 };
 export const metadata = {
-    title: "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen",
+    title: "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen",
     description: "Explore a beautifully designed 3BHK apartment interior project in Adyar by Arcmen, featuring modern décor, modular storage, and elegant living spaces.",
     keywords: ['Interior designers in Chennai', 'Arcmen Interior', 'Home interior design', 'Interior design Chennai'],
     robots: 'index,follow',
@@ -45,21 +45,21 @@ export const metadata = {
         type: 'website',
         url: "https://www.arcmeninterior.com/interior-design-projects/mrs-nithya-srinivasan",
         siteName: 'Arcmen Interior',
-        title: "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen",
+        title: "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen",
         description: "Explore a beautifully designed 3BHK apartment interior project in Adyar by Arcmen, featuring modern décor, modular storage, and elegant living spaces.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1739959496/Home_Improvement_opgohq.png",
             width: 1200,
             height: 630,
-            alt: "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen"
+            alt: "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen"
         }],
         locale: 'en_IN'
     },
     twitter: {
         card: 'summary_large_image',
-        title: "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen",
+        title: "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen",
         description: "Explore a beautifully designed 3BHK apartment interior project in Adyar by Arcmen, featuring modern décor, modular storage, and elegant living spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "3BHK Apartment Interior Design in Adyar, Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1739959496/Home_Improvement_opgohq.png", alt: "Mrs.Nithya Srinivasan Apartment Interior Design in Chennai | Arcmen" }]
     }
 };
 

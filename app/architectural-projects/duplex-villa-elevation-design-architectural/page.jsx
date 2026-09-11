@@ -50,7 +50,7 @@ export const metadata = {
         title: "Duplex Villa Elevation Design Project | Arcmen Chennai",
         description: "Explore Arcmen s duplex villa elevation design with premium architectural concepts, contemporary exteriors, and visually striking façade designs.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735643037/arcmen/Architectural%20Design%20Projects/sadik/sadik01.jpg",
             width: 1200,
             height: 630,
             alt: "Duplex Villa Elevation Design Project | Arcmen Chennai"
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Duplex Villa Elevation Design Project | Arcmen Chennai",
         description: "Explore Arcmen s duplex villa elevation design with premium architectural concepts, contemporary exteriors, and visually striking façade designs.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Duplex Villa Elevation Design Project | Arcmen Chennai" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735643037/arcmen/Architectural%20Design%20Projects/sadik/sadik01.jpg", alt: "Duplex Villa Elevation Design Project | Arcmen Chennai" }]
     }
 };
 

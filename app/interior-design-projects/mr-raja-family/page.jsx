@@ -48,7 +48,7 @@ export const metadata = {
         title: "Home Interior Design for Mr. Raja Family | Arcmen Chennai",
         description: "Explore Arcmen's modern interior design for the Mr. Raja family home in Chennai, featuring smart storage, elegant finishes & functional living spaces.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735289899/arcmen/mr%20raja%20family/raj-1.jpg",
             width: 1200,
             height: 630,
             alt: "Home Interior Design for Mr. Raja Family | Arcmen Chennai"
@@ -59,7 +59,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Home Interior Design for Mr. Raja Family | Arcmen Chennai",
         description: "Explore Arcmen's modern interior design for the Mr. Raja family home in Chennai, featuring smart storage, elegant finishes & functional living spaces.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Home Interior Design for Mr. Raja Family | Arcmen Chennai" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735289899/arcmen/mr%20raja%20family/raj-1.jpg", alt: "Home Interior Design for Mr. Raja Family | Arcmen Chennai" }]
     }
 };
 

@@ -50,7 +50,7 @@ export const metadata = {
         title: "Living Room Double Height Interior Design | Arcmen",
         description: "View Arcmen s double-height living room design showcasing spacious interiors, premium finishes, modern aesthetics, and elegant architectural details.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735630697/arcmen/Architectural%20Design%20Projects/muralidharan/muralidharan-02.jpg",
             width: 1200,
             height: 630,
             alt: "Living Room Double Height Interior Design | Arcmen"
@@ -61,7 +61,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Living Room Double Height Interior Design | Arcmen",
         description: "View Arcmen s double-height living room design showcasing spacious interiors, premium finishes, modern aesthetics, and elegant architectural details.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Living Room Double Height Interior Design | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735630697/arcmen/Architectural%20Design%20Projects/muralidharan/muralidharan-02.jpg", alt: "Living Room Double Height Interior Design | Arcmen" }]
     }
 };
 

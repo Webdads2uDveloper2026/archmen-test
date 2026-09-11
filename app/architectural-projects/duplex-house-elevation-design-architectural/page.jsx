@@ -51,7 +51,7 @@ export const metadata = {
         title: "Duplex House Elevation Design Project | Arcmen Chennai",
         description: "Explore Arcmen s duplex house elevation design featuring modern architecture, stylish façades, functional planning, and contemporary exterior finishes.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735631339/arcmen/Architectural%20Design%20Projects/shaul/shaul-03.jpg",
             width: 1200,
             height: 630,
             alt: "Duplex House Elevation Design Project | Arcmen Chennai"
@@ -62,7 +62,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Duplex House Elevation Design Project | Arcmen Chennai",
         description: "Explore Arcmen s duplex house elevation design featuring modern architecture, stylish façades, functional planning, and contemporary exterior finishes.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Duplex House Elevation Design Project | Arcmen Chennai" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735631339/arcmen/Architectural%20Design%20Projects/shaul/shaul-03.jpg", alt: "Duplex House Elevation Design Project | Arcmen Chennai" }]
     }
 };
 

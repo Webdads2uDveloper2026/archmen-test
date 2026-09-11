@@ -42,7 +42,7 @@ export const metadata = {
         title: "Eco Glass Modular Kitchen Designers in Chennai | Arcmen",
         description: "Discover elegant eco glass modular kitchen designs by Arcmen Interior in Chennai with modern finishes, practical storage, and functional layouts.",
         images: [{
-            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp",
+            url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735214039/arcmen/eco-glass-modular-kitchen/eco-glass-modular-banner.jpg",
             width: 1200,
             height: 630,
             alt: "Eco Glass Modular Kitchen Designers in Chennai | Arcmen"
@@ -53,7 +53,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Eco Glass Modular Kitchen Designers in Chennai | Arcmen",
         description: "Discover elegant eco glass modular kitchen designs by Arcmen Interior in Chennai with modern finishes, practical storage, and functional layouts.",
-        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1734327549/arcmen/qmzzdyddtrshcqtlostn.webp", alt: "Eco Glass Modular Kitchen Designers in Chennai | Arcmen" }]
+        images: [{ url: "https://res.cloudinary.com/dpflidsbg/image/upload/v1735214039/arcmen/eco-glass-modular-kitchen/eco-glass-modular-banner.jpg", alt: "Eco Glass Modular Kitchen Designers in Chennai | Arcmen" }]
     }
 };
 
