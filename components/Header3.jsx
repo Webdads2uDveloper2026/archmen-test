@@ -167,8 +167,8 @@ const Header = () => {
                                     </div>
                                     <section>
                                         <div style={{ color: '#75a313' }}>
-                                            <a href="tel:+919962998008" className="nav-link ps-2" id="phonecta">
-                                                <span id="phone">99629 98008</span>
+                                            <a href="tel:+919403890660" className="nav-link ps-2" id="phonecta">
+                                                <span id="phone">9403890660</span>
                                             </a>
                                             <button type="button" className="btn pe-3 ps-4" style={{ color: '#fff', background: '#75a313' }} data-toggle="modal" data-target="#exampleModal" onClick={handleShow}>
                                                 Book Now
@@ -183,7 +183,7 @@ const Header = () => {
             </div>
             <div className="sidebar-content-div hd-btn">
                 <div className="icon-sty">
-                    <a href="https://wa.me/9962998008" className="sidebar-icon" target="_blank" rel="noopener">
+                    <a href="https://wa.me/919962998008" className="sidebar-icon" target="_blank" rel="noopener">
                         <svg width="33.163" height="33.158" viewBox="0 0 33.163 33.158" style={{ marginTop: '15px', marginLeft: '6px' }}>
                             <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(4 4.579)" fill="#fff"></ellipse>
                             <g id="Layer_2" data-name="Layer 2">
@@ -221,7 +221,7 @@ const Header = () => {
                         </a>
                     </span>
                     <span className="mail-icon-div d-block d-lg-none">
-                        <a href="tel:+919962998008" className="sidebar-icon emil-bx">
+                        <a href="tel:+919403890660" className="sidebar-icon emil-bx">
                             <IoCall style={{ marginLeft: '5px', fill: '#75a313', fontSize: '20px' }} />
                         </a>
                     </span>

@@ -152,7 +152,7 @@ export default function BottomCenterButton({
 
               {/* Call */}
               <a
-                href="tel:+919962998008"
+                href="tel:+919403890660"
                 className="
                   flex
                   items-center

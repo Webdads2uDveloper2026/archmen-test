@@ -125,19 +125,19 @@ const Footer = () => {
                                     <p className="mb-2">
                                         <strong>Call us: </strong>
 
-                                        <a href="tel:+919962998008">
-                                            +91 99629 98008
+                                        <a href="tel:+919403890660">
+                                            +91 94038 90660
                                         </a>
 
                                         {" / "}
 
-                                        <a href="tel:+919962998003">
+                                        <a href="tel:+919403890660">
                                             03
                                         </a>
 
                                         {" / "}
 
-                                        <a href="tel:+919962998001">
+                                        <a href="tel:+919403890660">
                                             01
                                         </a>
                                     </p>

@@ -6,7 +6,7 @@ export default function FloatingActions() {
   return (
     <div className="hidden fixed right-3 bottom-10 z-50 md:flex flex-col items-center gap-4">
       <a
-        href="tel:+919962998008"
+        href="tel:+919403890660"
         className="w-10 h-10 bg-[#4dbc15] rounded-full flex items-center justify-center text-white shadow-lg animate-pulse"
       >
         <svg
@@ -21,7 +21,7 @@ export default function FloatingActions() {
       </a>
 
       <a
-        href="https://wa.me/9962998008"
+        href="https://wa.me/919962998008"
         target="_blank"
         className="w-10 h-10 bg-[#4dbc15] rounded-full flex items-center justify-center text-white shadow-lg animate-pulse"
       >
@@ -38,7 +38,7 @@ export default function FloatingActions() {
 
        {/* WHATSAPP 2 */}
       {/* <a
-        href="https://wa.me/918888888888"
+        href="https://wa.me/919962998008"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative z-10 w-12 h-12 bg-green-700 hide rounded-full flex items-center justify-center text-white shadow-lg animate-pulse cursor-pointer"

@@ -83,7 +83,7 @@ const structuredData = {
 
             contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+91 99629 98008',
+                telephone: '+91 9403890660',
                 contactType: 'customer service',
                 areaServed: 'IN',
                 availableLanguage: ['English', 'Tamil']
@@ -121,7 +121,7 @@ const structuredData = {
                 height: 60
             },
 
-            telephone: '+91 99629 98008',
+            telephone: '+91 9403890660',
             email: 'contact@arcmeninterior.com',
             priceRange: '₹₹',
 
@@ -188,7 +188,7 @@ const structuredData = {
             contactPoint: [
                 {
                     '@type': 'ContactPoint',
-                    telephone: '+91 99629 98008',
+                    telephone: '+91 9403890660',
                     contactType: 'customer service',
                     availableLanguage: ['English', 'Tamil'],
                     areaServed: 'IN'

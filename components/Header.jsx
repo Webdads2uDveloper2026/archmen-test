@@ -16,7 +16,7 @@ import '../style/homestyle.scss';
 import '../style/Header.css';
 
 const ACTIVE_TAB_COLOR = '#4dbc15';
-const PHONE_NUMBERS = ['+91 99629 98008', '03', '01'];
+const PHONE_NUMBERS = ['+919403890660', '03', '01'];
 const SOCIAL_LINKS = [
     {
         href: 'https://maps.app.goo.gl/NaRqbJyEBCYSS4zQ6',
@@ -238,7 +238,7 @@ export default function Header() {
 
             <div className="sidebar-content-div hd-btn">
                 <div className="icon-sty">
-                    <a href="https://wa.me/9962998008" className="sidebar-icon" target="_blank" rel="noopener">
+                    <a href="https://wa.me/919962998008" className="sidebar-icon" target="_blank" rel="noopener">
                         <svg width="33.163" height="33.158" viewBox="0 0 33.163 33.158" style={{ marginTop: '15px', marginLeft: '6px' }}>
                             <ellipse cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(4 4.579)" fill="#fff" />
                             <path d="M52.588,36A16.579,16.579,0,0,0,39.163,62.3l-2.072,6.159,6.379-2.039A16.579,16.579,0,1,0,52.588,36ZM61.4,59.447l-1.766,1.766c-1.857,1.857-6.781-.187-11.145-4.559s-6.321-9.284-4.555-11.12L45.7,43.767a1.853,1.853,0,0,1,2.508,0l2.6,2.595a1.728,1.728,0,0,1-.651,2.876,1.687,1.687,0,0,0-1.115,2.048,8.019,8.019,0,0,0,4.833,4.829A1.77,1.77,0,0,0,55.9,54.987a1.733,1.733,0,0,1,2.9-.651l2.6,2.6a1.853,1.853,0,0,1,0,2.508Z" transform="translate(-36.015 -36)" fill="#07d97e" />
@@ -253,7 +253,7 @@ export default function Header() {
                         </a>
                     </span>
                     <span className="mail-icon-div d-block d-lg-none">
-                        <a href="tel:+919962998008" className="sidebar-icon emil-bx">
+                        <a href="tel:+919403890660" className="sidebar-icon emil-bx">
                             <IoCall style={{ marginLeft: '5px', fill: '#75a313', fontSize: '20px' }} />
                         </a>
                     </span>
